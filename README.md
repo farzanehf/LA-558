@@ -7,6 +7,6 @@ I am a forth year Ph.D. student in Intelligent Infrastructure Engineering in Civ
 
 This is my [Exercise_1b](ex1b/ex1b.md)
 
-This is my [Exercise_2b](Exercises_/ex2b.jpeg)
+This is my [Exercise_2b](Exercises_/ex2b.md)
 
 
