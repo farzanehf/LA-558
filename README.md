@@ -1,7 +1,7 @@
 # LA-558
 This is my repo for LA-558 Spring 2023. 
 
-I will add some info about myself here. Maybe even an image!
+I am a forth year Ph.D. student in Intelligent Infrastructure Engineering in Civil Engineering Department.
 
 # Class Exercises
 
