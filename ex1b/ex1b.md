@@ -7,4 +7,4 @@ on the 8th, 15th, 17th, and 18th of Jan, "Tracked flights" is less than the "Sch
 
 
 ## Analysis of the Candy Data:
-![This is the analysis of candy data](candyObservation1.jpg)
+[This is the analysis of candy data](candyObservation1.jpg)
