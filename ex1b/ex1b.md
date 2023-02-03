@@ -6,5 +6,5 @@ Data shows that "Scheduled flights" is more that "Tracked flights" or equal. In 
 on the 8th, 15th, 17th, and 18th of Jan, "Tracked flights" is less than the "Scheduled flights."
 
 
-## Analysis of the Candy Data
+## Analysis of the Candy Data:
 ![This is the analysis of candy data](candyObservation1.jpg)
