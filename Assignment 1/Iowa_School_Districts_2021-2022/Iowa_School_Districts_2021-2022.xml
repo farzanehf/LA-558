@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <descript>
+            <abstract>This dataset represents Iowa public school districts for the 2022-2023 school year.  Data is published to this feature service annually (or as needed), and boundaries for the prior year are archived to a separate static feature service by school year (i.e. Iowa School Districts 2019-2020).  The Department of Education, in coordination with local school districts
+ and local county officials, have made ongoing efforts to update and correct school district boundaries
+statewide since 2014. Except for school reorganizations, boundaries represented in this dataset supersede any prior 
+years' data or any maps produced by any other source.  New boundary corrections are not applied retrospectively to archived datasets. This boundary layer represents legal school district boundaries, where 
+possible; data is updated annually, or as needed.  Last update - 1/10/2022.Please contact the Iowa Department of Education for more information:
+Iowa Department of Education | 400 E. 14th. Street, 
+Des Moines, IA  50319 | (515) 281-3968
+Data is provided for informational purposes only.  No warranty expressed or implied exists with the use of this data.</abstract>
+            <purpose>Iowa School District boundaries for the 2022-2023 school year - Updated 10/11/2022</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>iowa</themekey>
+                <themekey>  school</themekey>
+                <themekey>  districts</themekey>
+                <themekey>  education</themekey>
+                <themekey>  2022</themekey>
+                <themekey>  2023</themekey>
+                <themekey>  boundaries</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>CC Iowa Department of EducationNo warranty exists in the use of this data. </useconst>
+        <datacred>Iowa Department of Education</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
