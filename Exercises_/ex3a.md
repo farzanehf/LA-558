@@ -5,7 +5,7 @@ An html or .md file that provides a description of each of the maps and then lin
 then you could combine all of the maps below in one file as embedded maps or links. But, I don't think you can do this with a markdown file. 
 
 ## Map 1  OpenStreetMap:
-![Map 1 is OpenStreetMap with a marker embedded on a web page titled assign3a.html ](Assign3a.html)
+![Map 1 is OpenStreetMap with a marker embedded on a web page titled assign3a.html ] (Assign3a.html)
 
 
 
