@@ -6,6 +6,8 @@ then you could combine all of the maps below in one file as embedded maps or lin
 
 ## Map 1  OpenStreetMap:
 ![Map 1 is OpenStreetMap with a marker embedded on a web page titled assign3a.html ] (Assign3a.html)
+## Analysis of the Candy Data:
+![This is the analysis of candy data](candyObservation1.jpg)
 
 
 
