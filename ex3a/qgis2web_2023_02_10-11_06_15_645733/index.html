@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        #map {
+            width: 1888px;
+            height: 1714px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/IowaCountyBorderCounty_0.js"></script>
+        <script src="data/WindmillShapefileIA_WindTurbine_1.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[38.84099179978242,-96.80202238521757],[45.035662986679576,-89.97775260806334]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        function pop_IowaCountyBorderCounty_0(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['OBJECTID'] !== null ? autolinker.link(feature.properties['OBJECTID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['COUNTY_NUM'] !== null ? autolinker.link(feature.properties['COUNTY_NUM'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['COUNTY_NAM'] !== null ? autolinker.link(feature.properties['COUNTY_NAM'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['COUNTY_FIP'] !== null ? autolinker.link(feature.properties['COUNTY_FIP'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['REST_UPDAT'] !== null ? autolinker.link(feature.properties['REST_UPDAT'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['REST_UTC_O'] !== null ? autolinker.link(feature.properties['REST_UTC_O'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['AREA_ACRE'] !== null ? autolinker.link(feature.properties['AREA_ACRE'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['PERIMETER_'] !== null ? autolinker.link(feature.properties['PERIMETER_'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['GLOBALID'] !== null ? autolinker.link(feature.properties['GLOBALID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape__Are'] !== null ? autolinker.link(feature.properties['Shape__Are'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape__Len'] !== null ? autolinker.link(feature.properties['Shape__Len'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_IowaCountyBorderCounty_0_0() {
+            return {
+                pane: 'pane_IowaCountyBorderCounty_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(133,182,111,1.0)',
+                interactive: false,
+            }
+        }
+        map.createPane('pane_IowaCountyBorderCounty_0');
+        map.getPane('pane_IowaCountyBorderCounty_0').style.zIndex = 400;
+        map.getPane('pane_IowaCountyBorderCounty_0').style['mix-blend-mode'] = 'normal';
+        var layer_IowaCountyBorderCounty_0 = new L.geoJson(json_IowaCountyBorderCounty_0, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_IowaCountyBorderCounty_0',
+            layerName: 'layer_IowaCountyBorderCounty_0',
+            pane: 'pane_IowaCountyBorderCounty_0',
+            onEachFeature: pop_IowaCountyBorderCounty_0,
+            style: style_IowaCountyBorderCounty_0_0,
+        });
+        bounds_group.addLayer(layer_IowaCountyBorderCounty_0);
+        map.addLayer(layer_IowaCountyBorderCounty_0);
+        function pop_WindmillShapefileIA_WindTurbine_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['case_id'] !== null ? autolinker.link(feature.properties['case_id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['faa_ors'] !== null ? autolinker.link(feature.properties['faa_ors'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['faa_asn'] !== null ? autolinker.link(feature.properties['faa_asn'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['usgs_pr_id'] !== null ? autolinker.link(feature.properties['usgs_pr_id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['eia_id'] !== null ? autolinker.link(feature.properties['eia_id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_state'] !== null ? autolinker.link(feature.properties['t_state'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_county'] !== null ? autolinker.link(feature.properties['t_county'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_fips'] !== null ? autolinker.link(feature.properties['t_fips'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['p_name'] !== null ? autolinker.link(feature.properties['p_name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['p_year'] !== null ? autolinker.link(feature.properties['p_year'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['p_tnum'] !== null ? autolinker.link(feature.properties['p_tnum'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['p_cap'] !== null ? autolinker.link(feature.properties['p_cap'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_manu'] !== null ? autolinker.link(feature.properties['t_manu'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_model'] !== null ? autolinker.link(feature.properties['t_model'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_cap'] !== null ? autolinker.link(feature.properties['t_cap'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_hh'] !== null ? autolinker.link(feature.properties['t_hh'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_rd'] !== null ? autolinker.link(feature.properties['t_rd'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_rsa'] !== null ? autolinker.link(feature.properties['t_rsa'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_ttlh'] !== null ? autolinker.link(feature.properties['t_ttlh'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['retrofit'] !== null ? autolinker.link(feature.properties['retrofit'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['retrofit_y'] !== null ? autolinker.link(feature.properties['retrofit_y'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_conf_atr'] !== null ? autolinker.link(feature.properties['t_conf_atr'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_conf_loc'] !== null ? autolinker.link(feature.properties['t_conf_loc'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_img_date'] !== null ? autolinker.link(feature.properties['t_img_date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['t_img_srce'] !== null ? autolinker.link(feature.properties['t_img_srce'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['xlong'] !== null ? autolinker.link(feature.properties['xlong'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['ylat'] !== null ? autolinker.link(feature.properties['ylat'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_WindmillShapefileIA_WindTurbine_1_0() {
+            return {
+                pane: 'pane_WindmillShapefileIA_WindTurbine_1',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(229,182,54,1.0)',
+                interactive: false,
+            }
+        }
+        map.createPane('pane_WindmillShapefileIA_WindTurbine_1');
+        map.getPane('pane_WindmillShapefileIA_WindTurbine_1').style.zIndex = 401;
+        map.getPane('pane_WindmillShapefileIA_WindTurbine_1').style['mix-blend-mode'] = 'normal';
+        var layer_WindmillShapefileIA_WindTurbine_1 = new L.geoJson(json_WindmillShapefileIA_WindTurbine_1, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_WindmillShapefileIA_WindTurbine_1',
+            layerName: 'layer_WindmillShapefileIA_WindTurbine_1',
+            pane: 'pane_WindmillShapefileIA_WindTurbine_1',
+            onEachFeature: pop_WindmillShapefileIA_WindTurbine_1,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_WindmillShapefileIA_WindTurbine_1_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_WindmillShapefileIA_WindTurbine_1);
+        map.addLayer(layer_WindmillShapefileIA_WindTurbine_1);
+        setBounds();
+        </script>
+    </body>
+</html>
