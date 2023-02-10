@@ -19,8 +19,8 @@ browser tab.
 
 -export a geoJSON file that only has the fields in the popup that you want to share,  
 
-- modify the leaflet file I give you Thursday and just save it to your GitHub – See Thursday's Lecture video. 
-However ,I have copied the code to a html file that you can also copy and place into your GitHub 
+- modify the leaflet file and place into your GitHub 
+
 – or modify the example in JSBin and copy it into your own html file. -  https://github.com/profSeeger/LA558_2023/blob/main/lecture/3bLeaflet.html  
 
  
