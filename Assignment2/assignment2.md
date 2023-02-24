@@ -1,14 +1,32 @@
-# This is my Exercise 1 file
+# Assignment 2: 8 points Due Feb 28th 
+## [This is my Assignment2 html file.](Assignment2-Farzaneh.html)
 
-## Analysis of the Flight Data:
+- Create two data visuals from R using data of your choice. 
 
-Data shows that "Scheduled flights" is more that "Tracked flights" or equal. In the last 30 days, we can see 26 days they were equal, and just in 4 days, 
-on the 8th, 15th, 17th, and 18th of Jan, "Tracked flights" is less than the "Scheduled flights."
+- One visual must be a map using ggPlot2 and the other can be any kind of a chart 
 
+- Link to your data either locally or in GoogleSheets 
 
-## Analysis of the Candy Data:
-![This is the analysis of candy data](candyObservation1.jpg)
+- Create a directory named assignment2 on your repo 
 
+- Export the plot as an image file and add both outputs to a SINGLE markdown page inside the folder and post these to your Github. 
 
+Add your R file to the folder for assignment 2 
+
+4 points for each map as follows 
+
+1pt – Plot/graphic linked to from the single markdown file named assign2.md 
+
+1pt – Plot/graphic has a title 
+
+1pt – Data was imported 
+
+1pt – You utilized the Tidyverse package(s) (other than to read the data) to modify your original data e.g. summarize, count, sum, mutate etc 
+
+ 
+## [Map 1 is Ameshousing data that shows living area and price for houses in Ames.]
+ 
+
+ 
 
 Assignment2-Map1
