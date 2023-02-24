@@ -33,4 +33,3 @@ browser tab.
 – or modify the example in JSBin and copy it into your own html file. -  https://github.com/profSeeger/LA558_2023/blob/main/lecture/3bLeaflet.html  
 
  
-### I did both plugin and geoJSON file step by step with Professor Seeger's guidance in Tuesday's video.
