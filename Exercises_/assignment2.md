@@ -15,7 +15,7 @@
  
 
 # Map 2
-### [Map 2 is Ameshousing data that shows living area and price for houses in Ames.](https://github.com/farzanehf/LA-558/blob/main/Exercises/Assignment2-Map2.jpeg)
+### [Map 2 is Ameshousing data that shows living area and price for houses in Ames.](../Exercises/Assignment2-Map2.jpeg)
 
 ### [Map 2 has a secon map for the flipped map.](../Exercises_/Assignment2-Map2-Flipped.jpeg)
 
