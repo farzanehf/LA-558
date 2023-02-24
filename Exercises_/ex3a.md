@@ -13,9 +13,9 @@ then you could combine all of the maps below in one file as embedded maps or lin
 
 
 ## Map 2 an exported PDF map:
-Map 2 is an exported PDF map named assign3.pdf - note this is a good opportunity to make a map that uses a geoprocess, table join, or field calculation. 
+![Map 2 is an exported PDF map named assign3.pdf - note this is a good opportunity to make a map that uses a geoprocess, table join, or field calculation. 
 You can describe what function you did in the html file that links to the PDF. Utilize a target="_blank" when you make the link to the PDF so it opens in a new 
-browser tab. 
+browser tab.](ex3a-geopdf.pdf)
 
 ## Your choice:  
 
