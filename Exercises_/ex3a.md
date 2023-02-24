@@ -4,8 +4,8 @@
 An html or .md file that provides a description of each of the maps and then links to a page with the actual map. If you decide to go with a .html file for this,
 then you could combine all of the maps below in one file as embedded maps or links. But, I don't think you can do this with a markdown file. 
 
-## Map 1  OpenStreetMap:
-![Map 1 is OpenStreetMap with a marker embedded on a web page titled](Assign3a.html.html)
+## [Map 1](Assign3a.html)
+#![Map 1 is OpenStreetMap with a marker embedded on a web page titled](Assign3a.html.html)
 
 
 ## Map 2 an exported PDF map:
