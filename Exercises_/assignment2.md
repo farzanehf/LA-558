@@ -19,4 +19,5 @@
 
 ### [Map 2 has a secon map for the flipped map.](https://github.com/farzanehf/LA-558/tree/main/Exercises_/Assignment2-Map2-Flipped.jpeg)
 
-
+# R Code Link
+### [This is my R code for this assignment.](https://github.com/farzanehf/LA-558/tree/main/Exercises_/Assignment2-Farzaneh.Rmd)
