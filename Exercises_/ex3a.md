@@ -29,6 +29,7 @@ browser tab.](ex3a-geopdf.pdf)
 
 
 - modify the leaflet file and place into your GitHub 
+![Map 4 is qgz file](ex3a-part4.qgz)
 
 – or modify the example in JSBin and copy it into your own html file. -  https://github.com/profSeeger/LA558_2023/blob/main/lecture/3bLeaflet.html  
 
