@@ -29,7 +29,7 @@ browser tab.
 
 
 - modify the leaflet file and place into your GitHub 
-## [Map 4 is qgz file](https://github.com/farzanehf/LA-558/blob/main/Exercises_/ex3a-part4.qgz)
+## [Map 4 is leaflet](../ex3a/ex3a-qgis2web/index.html)
 
 – or modify the example in JSBin and copy it into your own html file. -  https://github.com/profSeeger/LA558_2023/blob/main/lecture/3bLeaflet.html  
 
