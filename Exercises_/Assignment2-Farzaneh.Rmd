@@ -27,7 +27,9 @@ setwd("C:/Spring 2023/CRP 558/LA-558/GisData/London")
 London_shp = readShapePoly("LDNSuicides.shp")
 London_csv<-read.csv("london.csv")
 plot(London_shp)
-
+View(London_csv)
+max(London_csv$E)
+count(London_csv)
 
 London_shp$ID1=row.names(London_shp)
 London_csv$ID2=row.names(London_csv)
@@ -40,9 +42,36 @@ s
 # Map 2
 setwd("C:/Spring 2023/CRP 558/LA-558/GisData")
 Ames <- read.csv("Ameshousing.csv")
+View(Ames)
 head(Ames)
+summarize(Ames)
+##number of houses
+dim(Ames)
+#or
+nrow(Ames)
+
+##names of variables
+str(Ames) 
+#or 
+colnames(Ames)
+#or
+names(Ames)
+
+## some statistics
+meanarea <- mean(Ames$LivingArea)
+meanarea
+
+stdarea <- sd(Ames$LivingArea)
+stdarea
+
+medarea <- median(Ames$LivingArea)
+medarea
+
+mean(Ames$SalePrice)
+sd(Ames$SalePrice/sqrt(length(Ames$SalePrice)))
+
+## Mapping
 library(ggplot2)
-lm(SalePrice ~ LivingArea, data = Ames)
 f = ggplot(Ames, aes(x = LivingArea,  y = SalePrice))+
   geom_point(col="green", size = 4)+
   geom_smooth(col="red", width=0.5)+
