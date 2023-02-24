@@ -1,0 +1,40 @@
+### Assignment #2  LA-558   Farzaneh-Faramarzi
+### Farzaneh Faramarzi
+### Professor Seeger
+
+library(ggplot2)
+library(dplyr)
+library(maptools)
+library(tidyverse)
+library(maps)
+library(mapdata)
+
+# Map 1
+
+#install.packages(c("gpclib","maptools"))
+library("gpclib")
+setwd("C:/Spring 2023/CRP 558/LA-558/GisData/London")
+London_shp = readShapePoly("LDNSuicides.shp")
+London_csv<-read.csv("london.csv")
+plot(London_shp)
+
+
+London_shp$ID1=row.names(London_shp)
+London_csv$ID2=row.names(London_csv)
+shp.csv=merge(London_shp, London_csv, by.x = "ID1", by.y = "ID2")
+s = spplot(shp.csv, zcol="logSMR",col=NA,main="London Map - Boroughs of the London")
+s
+
+# Map 2
+setwd("C:/Spring 2023/CRP 558/LA-558/GisData")
+Ames <- read.csv("Ameshousing.csv")
+head(Ames)
+library(ggplot2)
+lm(SalePrice ~ LivingArea, data = Ames)
+f = ggplot(Ames, aes(x = LivingArea,  y = SalePrice))+
+  geom_point(col="green", size = 4)+
+  geom_smooth(col="red", width=0.5)+
+  labs(x = "Living Area", y = "House Sale Price", title = "House Sale Price vs Living Area" )
+f
+f + coord_flip()
+
