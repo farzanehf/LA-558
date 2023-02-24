@@ -11,12 +11,12 @@
 - Export the plot as an image file and add both outputs to a SINGLE markdown page inside the folder and post these to your Github. 
 
 # Map 1
-### [Map 1 is London csv and shapefile which show London Map and Boroughs of the London.](Assignment2-Map1.jpg)
+### [Map 1 is London csv and shapefile which show London Map and Boroughs of the London.](../Exercises_/Assignment2-Map1.JPEG)
  
 
 # Map 2
-### [Map 2 is Ameshousing data that shows living area and price for houses in Ames.](Assignment2-Map2.JPEG)
+### [Map 2 is Ameshousing data that shows living area and price for houses in Ames.](../Exercises_/Assignment2-Map2.JPEG)
 
-### [Map 2 has a secon map for the flipped map.](Assignment2-Map2-Flipped.JPEG)
+### [Map 2 has a secon map for the flipped map.](../Exercises_/Assignment2-Map2-Flipped.JPEG)
 
 
