@@ -1,7 +1,3 @@
-# This is my exercise 2b
-
-![This is a link to my map](ex2b.jpeg)
-
 # This is my Assignment 1 - ex3a file
 
 
@@ -13,9 +9,11 @@ then you could combine all of the maps below in one file as embedded maps or lin
 
 
 ## Map 2 an exported PDF map:
-Map 2 is an exported PDF map named assign3.pdf - note this is a good opportunity to make a map that uses a geoprocess, table join, or field calculation. 
+![Map 2 is an exported PDF map named assign3.pdf - note this is a good opportunity to make a map that uses a geoprocess, table join, or field calculation. 
 You can describe what function you did in the html file that links to the PDF. Utilize a target="_blank" when you make the link to the PDF so it opens in a new 
-browser tab. 
+browser tab.](ex3a-geopdf.pdf)
+- Another try
+-![Map 2 is an exported PDF map for showing Iowa Wind Farms](Map.pdf)
 
 ## Your choice:  
 
@@ -24,11 +22,14 @@ browser tab.
 ## Map 3  geoJSON file:
 -export a geoJSON file that only has the fields in the popup that you want to share, 
 ![Map 3 is geoJSON file](ex3a-JSON.geojson)
+- the other try
+![Map 3 is geoJSON file another one here](ex3a-JSON-edited by website.JSON)
 
 
 
 
 - modify the leaflet file and place into your GitHub 
+![Map 4 is qgz file](ex3a-part4.qgz)
 
 – or modify the example in JSBin and copy it into your own html file. -  https://github.com/profSeeger/LA558_2023/blob/main/lecture/3bLeaflet.html  
 
