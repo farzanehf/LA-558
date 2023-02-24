@@ -19,17 +19,17 @@ browser tab.
 
 -export a map using the GIS2Web plugin,  
 
-## Map 3  geoJSON file:
+## [Map 3  geoJSON file](https://github.com/farzanehf/LA-558/blob/main/Exercises_/ex3a-JSON.geojson)
 -export a geoJSON file that only has the fields in the popup that you want to share, 
-![Map 3 is geoJSON file](ex3a-JSON.geojson)
+
 - the other try
-![Map 3 is geoJSON file another one here](ex3a-JSON-edited by website.JSON)
+## [Map 3 is geoJSON file another one here](https://github.com/farzanehf/LA-558/blob/main/Exercises_/ex3a-JSON-edited by website.JSON)
 
 
 
 
 - modify the leaflet file and place into your GitHub 
-![Map 4 is qgz file](ex3a-part4.qgz)
+## [Map 4 is qgz file](https://github.com/farzanehf/LA-558/blob/main/Exercises_/ex3a-part4.qgz)
 
 – or modify the example in JSBin and copy it into your own html file. -  https://github.com/profSeeger/LA558_2023/blob/main/lecture/3bLeaflet.html  
 
