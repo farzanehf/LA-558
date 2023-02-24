@@ -27,7 +27,9 @@ setwd("C:/Spring 2023/CRP 558/LA-558/GisData/London")
 London_shp = readShapePoly("LDNSuicides.shp")
 London_csv<-read.csv("london.csv")
 plot(London_shp)
-
+View(London_csv)
+max(London_csv$E)
+count(London_csv)
 
 London_shp$ID1=row.names(London_shp)
 London_csv$ID2=row.names(London_csv)
@@ -40,8 +42,9 @@ s
 # Map 2
 setwd("C:/Spring 2023/CRP 558/LA-558/GisData")
 Ames <- read.csv("Ameshousing.csv")
+View(Ames)
 head(Ames)
-
+summarize(Ames)
 ##number of houses
 dim(Ames)
 #or
