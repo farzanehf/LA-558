@@ -1,3 +1,7 @@
+# This is my exercise 2b
+
+![This is a link to my map](ex2b.jpeg)
+
 # This is my Assignment 1 - ex3a file
 
 
@@ -5,7 +9,7 @@ An html or .md file that provides a description of each of the maps and then lin
 then you could combine all of the maps below in one file as embedded maps or links. But, I don't think you can do this with a markdown file. 
 
 ## Map 1  OpenStreetMap:
-![Map 1 is OpenStreetMap with a marker embedded on a web page titled assign3a.html](Assign3a.html)
+![Map 1 is OpenStreetMap with a marker embedded on a web page titled](Assign3a.html.html)
 
 
 ## Map 2 an exported PDF map:
@@ -17,11 +21,15 @@ browser tab.
 
 -export a map using the GIS2Web plugin,  
 
--export a geoJSON file that only has the fields in the popup that you want to share,  
+## Map 3  geoJSON file:
+-export a geoJSON file that only has the fields in the popup that you want to share, 
+![Map 3 is geoJSON file](ex3a-JSON.geojson)
+
+
+
 
 - modify the leaflet file and place into your GitHub 
 
 – or modify the example in JSBin and copy it into your own html file. -  https://github.com/profSeeger/LA558_2023/blob/main/lecture/3bLeaflet.html  
 
  
-### I did both plugin and geoJSON file step by step with Professor Seeger's guidance in Tuesday's video.
