@@ -1,4 +1,3 @@
-# Assignment 2: 8 points Due Feb 28th 
 ## [This is my Assignment2 html file.](https://rpubs.com/farzanehf/1007451)
 
 - Create two data visuals from R using data of your choice. 
@@ -11,22 +10,13 @@
 
 - Export the plot as an image file and add both outputs to a SINGLE markdown page inside the folder and post these to your Github. 
 
-Add your R file to the folder for assignment 2 
-
-4 points for each map as follows 
-
-1pt – Plot/graphic linked to from the single markdown file named assign2.md 
-
-1pt – Plot/graphic has a title 
-
-1pt – Data was imported 
-
-1pt – You utilized the Tidyverse package(s) (other than to read the data) to modify your original data e.g. summarize, count, sum, mutate etc 
-
- 
-## [Map 1 is Ameshousing data that shows living area and price for houses in Ames.]
+# Map 1
+## [Map 1 is London csv and shapefile which show London Map and Boroughs of the London.](Assignment2-Map1.JPEG)
  
 
- 
+# Map 2
+## [Map 2 is Ameshousing data that shows living area and price for houses in Ames.](Assignment2-Map2.JPEG)
 
-Assignment2-Map1
+## [Map 2 has a secon map for the flipped map.](Assignment2-Map2-Flipped)
+
+
