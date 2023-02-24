@@ -11,7 +11,7 @@
 - Export the plot as an image file and add both outputs to a SINGLE markdown page inside the folder and post these to your Github. 
 
 # Map 1
-### [Map 1 is London csv and shapefile which show London Map and Boroughs of the London.](https://github.com/farzanehf/LA-558/blob/main/Exercises_/Assignment2-Map1.JPEG)
+### [Map 1 is London csv and shapefile which show London Map and Boroughs of the London.](https://github.com/farzanehf/LA-558/tree/main/Exercises_/Assignment2-Map1.JPEG)
  
 
 # Map 2
