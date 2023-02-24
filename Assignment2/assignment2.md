@@ -17,6 +17,6 @@
 # Map 2
 ### [Map 2 is Ameshousing data that shows living area and price for houses in Ames.](Assignment2-Map2.JPEG)
 
-### [Map 2 has a secon map for the flipped map.](Assignment2-Map2-Flipped)
+### [Map 2 has a secon map for the flipped map.](Assignment2-Map2-Flipped.JPEG)
 
 
