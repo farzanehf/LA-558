@@ -5,15 +5,15 @@ An html or .md file that provides a description of each of the maps and then lin
 then you could combine all of the maps below in one file as embedded maps or links. But, I don't think you can do this with a markdown file. 
 
 ## [Map 1](Assign3a.html)
-#![Map 1 is OpenStreetMap with a marker embedded on a web page titled](Assign3a.html.html)
+# Map 1 is OpenStreetMap with a marker embedded on a web page titled
 
 
-## Map 2 an exported PDF map:
-![Map 2 is an exported PDF map named assign3.pdf - note this is a good opportunity to make a map that uses a geoprocess, table join, or field calculation. 
+## [Map 2 an exported PDF map](ex3a-geopdf.pdf)
+# Map 2 is an exported PDF map named assign3.pdf - note this is a good opportunity to make a map that uses a geoprocess, table join, or field calculation. 
 You can describe what function you did in the html file that links to the PDF. Utilize a target="_blank" when you make the link to the PDF so it opens in a new 
-browser tab.](ex3a-geopdf.pdf)
-- Another try
--![Map 2 is an exported PDF map for showing Iowa Wind Farms with two buffers in 4 miles and 8 miles. CWindturbines' colors are showing installation years](Map.pdf)
+browser tab.
+## [Another try](Map.pdf)
+- Map 2 is an exported PDF map for showing Iowa Wind Farms with two buffers in 4 miles and 8 miles. CWindturbines' colors are showing installation years
 
 ## Your choice:  
 
