@@ -21,7 +21,7 @@ browser tab.](ex3a-geopdf.pdf)
 -export a geoJSON file that only has the fields in the popup that you want to share, 
 ![Map 3 is geoJSON file](ex3a-JSON.geojson)
 - the other try
-![Map 3 is geoJSON file another one here](ex3a-JSON-edited by website)
+![Map 3 is geoJSON file another one here](ex3a-JSON-edited by website..geojson)
 
 
 
