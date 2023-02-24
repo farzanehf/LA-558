@@ -21,7 +21,12 @@ browser tab.
 
 -export a map using the GIS2Web plugin,  
 
--export a geoJSON file that only has the fields in the popup that you want to share,  
+## Map 3  geoJSON file:
+-export a geoJSON file that only has the fields in the popup that you want to share, 
+![Map 3 is geoJSON file](ex3a-JSON.geojson)
+
+
+
 
 - modify the leaflet file and place into your GitHub 
 
