@@ -13,7 +13,7 @@ then you could combine all of the maps below in one file as embedded maps or lin
 You can describe what function you did in the html file that links to the PDF. Utilize a target="_blank" when you make the link to the PDF so it opens in a new 
 browser tab.](ex3a-geopdf.pdf)
 - Another try
--![Map 2 is an exported PDF map for showing Iowa Wind Farms with two buffers in 4 miles and 8 miles](Map.pdf)
+-![Map 2 is an exported PDF map for showing Iowa Wind Farms with two buffers in 4 miles and 8 miles. CWindturbines' colors are showing installation years](Map.pdf)
 
 ## Your choice:  
 
