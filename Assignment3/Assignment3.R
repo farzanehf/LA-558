@@ -77,7 +77,7 @@ us_median_age %>%
   theme_void()
 
 
-# First Plot - My Other try 
+# First Plot - My third try 
 
 ## ----decennial-------------------------------------------------------------------------
 pop20 <- get_decennial(
@@ -131,7 +131,7 @@ story_hispanic <- get_decennial(
   county = "Story County", 
   year = 2020
 )
-plot(pop20$value,main="Story County - Hispanic")
+plot(pop20$value,main="Story County - Hispanic Population")
 
 
 # Second Plot:
@@ -169,9 +169,6 @@ plot(iowa_income["estimate"], main=("Estimate of Income - Iowa"))
 
 fly <- read.csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/flying-etiquette-survey/flying-etiquette.csv")
 
-fly$Age <- factor(fly$Age, levels=c("18-29", "30-44", "45-60", "> 60", ""))
-fly$Household.Income <- factor(fly$Household.Income, levels = c("$0 - $24,999","$25,000 - $49,999", "$50,000 - $99,999", "$100,000 - $149,999", "150000", ""))
-fly$Education <- factor(fly$Education, levels = c("Less than high school degree", "High school degree", "Some college or Associate degree", "Bachelor degree",  "Graduate degree", ""))
 fly$travel_freq <- fly$How.often.do.you.travel.by.plane.
 levels(fly$travel_freq)
 
@@ -186,8 +183,6 @@ levels(fly$travel_freq)
 ggplot(data = fly, aes(x = travel_freq)) + 
   geom_bar() + coord_flip()
 
-ggplot(data = fly, aes(x = travel_freq)) + 
-  geom_bar()
 
 fly_new <- fly[fly$travel_freq!= "Never",]
 
@@ -200,18 +195,10 @@ fly$baby.on.plane <- factor(fly$baby.on.plane,
                             levels = baby_rude_levels)
 
 
-library(ggplot2)
-fly$Education = with(fly, factor(Education, levels = rev(levels(Education))))
-
-ggplot(data = fly, aes(x = 1)) + 
-  geom_bar(aes(fill=Education), position="fill") + 
-  coord_flip() +
-  theme(legend.position="bottom") +
-  scale_fill_brewer() + 
-  xlab("Ratio") 
+ggplot(data = fly, aes(x = travel_freq)) + 
+  geom_bar() + coord_flip()
 
 
-ggplot(data = fly, aes(x=fly$Gender, fill = `Do.you.have.any.children.under.18.`))+geom_bar()+ facet_wrap(~`baby.on.plane`) 
-
+ggplot(data = fly, aes(x=Gender, fill = `Do.you.have.any.children.under.18.`))+geom_bar()+ facet_wrap(~`baby.on.plane`) 
 
 
