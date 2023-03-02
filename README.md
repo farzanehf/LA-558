@@ -17,4 +17,4 @@ This is my [Exercise_3b](Exercises_/ex3b.md)
 
 This is my [Assignment_2](Exercises_/assignment2.md)
 
-This is my [Assignment_3](Exercises_/index.md)
+This is my [Assignment_3](C:/Spring 2023/CRP 558/LA-558/Assignment3/index.md)
