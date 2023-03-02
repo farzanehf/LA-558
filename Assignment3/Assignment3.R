@@ -1,7 +1,7 @@
 ---
 title: "Assignment 3"
 author: "Farzaneh"
-date: "`r Sys.Date()`"
+date: "03/02/2023"
 output: html_document
 ---
 
