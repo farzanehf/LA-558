@@ -26,6 +26,4 @@
 
 
 ## Map 3: 
-![alt text](map3.1.png    "Estimate of Income - Iowa")
-
 ![alt text](map3.2.png    "Estimate of Income - Iowa")
