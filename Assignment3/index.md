@@ -10,7 +10,6 @@
 
 
 ### Map 1: My second try: Median Age by State in the USA
-
 ![alt text](map1.2.1.png    "Median Age by State, 2022")
 
 ![alt text](map1.2.2.png    "Median Age by State, 2022 without theme")
