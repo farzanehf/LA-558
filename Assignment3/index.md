@@ -2,6 +2,7 @@
 
 ## Map 1: Median Age by State in the USA
 #### Median age in different states og the united states in 2022 is shown in this map.
+#### We can see Iowa's median age is between 35 to 40 bassed on the color index.
 
 ![alt text](map1.2.2.png    "Median Age by State, 2022 without theme")
 
