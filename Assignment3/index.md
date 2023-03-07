@@ -15,9 +15,6 @@
 
 ![alt text](map1.2.2.png    "Median Age by State, 2022 without theme")
 
-### Map 1: My third try: Story County - Hispanic Population")
-![alt text](map1.3.1.png    "Story County - Hispanic Population")
-
 
 ## Map 2: Estimate of Income - Iowa
 ![alt text](map2.png    "Estimate of Income - Iowa")
