@@ -4,8 +4,10 @@
 
 I read states data and then chose Iowa and showed Iowa's counties geometry. 
 ![alt text](map1.1.1.png   "All 99 County - Iowa")
+
 In this map I plotted just one county of Iowa, Des Moines County.
 ![alt text](map1.1.2.png  "Des Moines County - Iowa")
+
 In this map I plotted anothere county of Iowa that ISU campus is in it.
 ![alt text](map1.1.3.png  "Story County - Iowa")
 
