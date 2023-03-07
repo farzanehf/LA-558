@@ -35,7 +35,7 @@ str(st_tracts)
 
 ia_counties <- counties("IA")
 plot(ia_counties$geometry, main="All 99 County - Iowa", col="pink")
-pink?plot
+
 dm_tracts <- tracts("IA", "Des Moines")
 plot(dm_tracts$geometry, , main="Des Moines County - Iowa", col="orange")
 
@@ -199,6 +199,6 @@ ggplot(data = fly, aes(x = travel_freq)) +
   geom_bar() + coord_flip() 
 
 
-ggplot(data = fly, aes(x=Gender, fill = `Do.you.have.any.children.under.18.`))+geom_bar()+ facet_wrap(~`baby.on.plane`) 
+ggplot(data = fly, aes(x=fly$Gender, fill = `Do.you.have.any.children.under.18.`))+geom_bar()+ facet_wrap(~`baby.on.plane`) 
 
 
