@@ -131,7 +131,7 @@ story_hispanic <- get_decennial(
   county = "Story County", 
   year = 2020
 )
-plot(pop20$value,main="Story County - Hispanic Population")
+plot((pop20$value)/1000000,main="Story County - Hispanic Population")
 
 
 # Second Plot:

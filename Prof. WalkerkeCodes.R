@@ -40,10 +40,7 @@ table_p2 <- get_decennial(
 ## ----view-table------------------------------------------------------------------------
 table_p2
 
-```
 
-
-```{r}
 ## ----query-by-state--------------------------------------------------------------------
 mi_hispanic <- get_decennial(
   geography = "county", 
@@ -70,12 +67,6 @@ washtenaw_hispanic <- get_decennial(
 ## ----show-query-by-county--------------------------------------------------------------
 washtenaw_hispanic
 
-```
-
-
-
-
-```{r}
 
 
 ## ----search-variables----------------------------------------------------
@@ -97,12 +88,7 @@ group_quarters <- get_decennial(
 ## ----show-tidy-data--------------------------------------------------------------------
 group_quarters
 
-```
 
-
-
-
-```{r}
 ## ----wide-data-------------------------------------------------------------------------
 group_quarters_wide <- get_decennial(
   geography = "state", 
@@ -115,12 +101,7 @@ group_quarters_wide <- get_decennial(
 ## ----show-wide-data--------------------------------------------------------------------
 group_quarters_wide
 
-```
 
-
-
-
-```{r}
 ## ----named-variables-------------------------------------------------------------------
 vacancies_wide <- get_decennial(
   geography = "county",
@@ -135,12 +116,7 @@ vacancies_wide <- get_decennial(
 ## ----show-named-variables--------------------------------------------------------------
 vacancies_wide
 
-```
 
-
-
-
-```{r}
 ## ----tidyverse-------------------------------------------------------------------------
 library(tidyverse)
 
@@ -197,12 +173,7 @@ az_race <- get_decennial(
 ## ----view-summary-variable-------------------------------------------------------------
 az_race
 
-```
 
-
-
-
-```{r}
 ## ----mutate-and-select-----------------------------------------------------------------
 az_race_percent <- az_race %>%
   mutate(percent = 100 * (value / summary_value)) %>%
