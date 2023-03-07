@@ -14,8 +14,10 @@
 
 ## Map 3: Fly data analyzing gender and child 
 #### Shows gender of people in fly and if they have a child with them or not.
+#### From the plot we can say most people travel once a year or less with airplane.
 ![alt text](map3.1.png    "Travel Frequency")
 
 #### Map 3: Gender in a Fly - Do they have a child with them
+#### the plot is indicating that most of people in fly are females. A litte number of children with females is more, but actually the percentage of number of children to  the total amount of female in compare to number of children to  the total amount of male is less.
 ![alt text](map3.2Edited.png    "Gender in a Fly - Do they have a child with them")
 
