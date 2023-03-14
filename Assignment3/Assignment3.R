@@ -133,7 +133,8 @@ story_hispanic <- get_decennial(
 )
 plot((pop20$value)/1000000,main="Story County - Hispanic Population")
 
-
+ggplot(data = pop20$value, aes(x= count(pop20$value), y = (pop20$value)/1000000),,main="Story County - Hispanic Population") +
+  geom_dotplot()
 # Second Plot:
 
 ### Iowa income estimate.
