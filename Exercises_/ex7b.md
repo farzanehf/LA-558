@@ -5,3 +5,5 @@
 ## [Map 1](ex7b-map.PNG)
 
 ## [Map 2](ex7b-map.zoom.PNG)
+
+## [R Code](ex7b.R)
