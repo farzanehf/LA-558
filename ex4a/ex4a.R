@@ -49,15 +49,6 @@ ggplot(crash_data, aes(x = FATALITIES, fill = CRASH_YEAR)) +
        y = "Density") +
   theme_bw()
 
-###########
-
-#  bar chart of DRUGALCREL by CRASH_YEAR, with FATALITIES as the fill color
-ggplot(crash_data, aes(x = DRUGALCREL, y = FATALITIES, fill = DRUGALCREL)) +
-  geom_bar(stat = "identity", position = "dodge") +
-  labs(title = "Bar Chart of DRUGALCREL by Fatalities",
-       x = "DRUGALCREL",
-       y = "Number of Fatalities") +
-  theme_bw()
 
 
 
