@@ -6,11 +6,11 @@
 
 #### These plots are for Iowa Crashes that the data reference is "https://data.iowadot.gov/datasets/IowaDOT::crash-data-sor/about"
 
-## [Plot 1](ex4a.map1)
+## [Plot 1](ex4a.map1.JPEG)
 
 #### For the first plot I grouped the data by CRASH_YEAR and calculate the sum of each injury type.
 
-## [Plot 2](ex4a.map2)
+## [Plot 2](ex4a.map2.JPEG)
 
 #### For the second plot I created a histogram of fatalities, colored by CRASH_YEAR and split by DRUGALCREL.
 
