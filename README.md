@@ -13,7 +13,7 @@ This is my [Exercise_3a](Exercises_/ex3a.md)
 
 This is my [Exercise_3b](Exercises_/ex3b.md)
 
-This is my [Exercise_7b](Exercises_/)
+This is my [Exercise_7b](Exercises_/ex7b.md)
 
 # Assignments
 
