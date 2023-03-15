@@ -22,4 +22,4 @@ map <- leaflet() %>%
   addMarkers(lng= -95.3871, lat=29.7214, popup="Herman Park my favorite park")
 map  # Print the map
 
-map %>% setView(lng= -95.3871, lat=29.7214, zoom = 19)
+map %>% setView(lng= -95.3871, lat=29.7214, zoom = 18)
