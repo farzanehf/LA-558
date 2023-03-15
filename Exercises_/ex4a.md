@@ -5,8 +5,8 @@
 
 ## [Map 1](ex4a.map1)
 
-## [Map 1](ex4a.map2)
+## [Map 2](ex4a.map2)
 
-## [Map 1](ex4a.map3)
+## [Map 3](ex4a.map3)
 
 ## [R Code](ex4a.R)
