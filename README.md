@@ -1,7 +1,7 @@
 # LA-558
 This is my repo for LA-558 Spring 2023. 
 
-I am a forth year Ph.D. student in Intelligent Infrastructure Engineering in Civil Engineering Department.
+I am a forth year Ph.D. student in Intelligent Infrastructure Engineering in Civil Engineering Department at Iowa State University.
 
 # Class Exercises
 
