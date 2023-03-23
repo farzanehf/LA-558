@@ -16,7 +16,7 @@
 ![alt text](Assign4.map4.PNG   "Leaflet page in R that includes a chloropleth")
 
 ## Map 5:Add a Popup or a label 
-![alt text](Assign4.map4.2.PNG    "Add a Popup or a label")
+![alt text](Assign4.map42.PNG    "Add a Popup or a label")
 
 ## Map 6:Add a Legend 
 ![alt text](Assign4.map5.PNG    "Add a Legend")
