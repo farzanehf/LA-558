@@ -70,38 +70,51 @@ m
 
 # Add an additional layers containing lines or markers. 
 
+# Load required packages
 library(leaflet)
+library(sp)
 library(rgdal)
-library(readOGR)
-# Import shapefile and set projection
-us_states <- readOGR(dsn = "C:/Spring 2023/CRP 558/LA-558/Assignment4/USA_States_(Generalized)", layer = "USA_States_Generalized")
-us_states <- spTransform(us_states, CRS("+proj=longlat +datum=WGS84"))
+library(RColorBrewer)
 
-# Create chloropleth map based on population density
-pal <- colorNumeric(palette = "Blues", domain = us_states@data$population_density)
-pal
-leaflet() %>%
-  addProviderTiles("CartoDB.Positron") %>%
-  addPolygons(data = us_states,
-              fillColor = ~pal(population_density),
-              fillOpacity = 0.8,
-              color = "#b2b2b2",
-              weight = 1,
-              popup = paste("<b>", us_states$NAME, "</b><br>",
-                            "Population Density: ", us_states$population_density)) %>%
-  addLegend(pal = pal, values = us_states@data$population_density,
-            title = "Population Density (people per sq. mile)",
-            position = "bottomright")
+# Set working directory to where shapefile is located
+setwd("C:/Spring 2023/CRP 558/LA-558/Assignment4/USA_States_(Generalized)")
 
-leaflet() %>%
-  addProviderTiles("CartoDB.Positron") %>%
-  addPolygons(data = us_states,
-              fillColor = ~pal(population_density),
-              fillOpacity = 0.8,
-              color = "#b2b2b2",
-              weight = 1) %>%
-  addLabelOnlyMarkers(data = us_states,
-                      label = ~NAME,
-                      labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE),
-                      lng = ~coordinates(.)[1],
-                      lat = ~coordinates(.)[2])
+# Import shapefile
+my_shp <- readOGR(".", "USA_States_Generalized")
+
+# Set projection
+my_shp <- spTransform(my_shp, CRS("+proj=longlat +datum=WGS84"))
+
+# Create color palette for chloropleth
+mypalette <- colorNumeric(palette = "YlGn", domain = my_shp$POPULATION)
+
+# Create Leaflet map
+map4 <- leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap tiles
+  addPolygons(data = my_shp,  # Add polygons from shapefile
+              fillColor = mypalette(my_shp$POPULATION),  # Set fill color using palette
+              fillOpacity = 0.7,  # Set fill opacity
+              color = "#BDBDC3",  # Set border color
+              weight = 1,  # Set border weight
+              popup = paste("<b>", my_shp$NAME, "</b><br>",  # Set popup contents
+                            "Population: ", my_shp$POPULATION)) 
+map4
+map5<- map4 %>%  # You can customize the popup contents as needed
+  addLegend(pal = mypalette, values = my_shp$POPULATION,  # Add legend for chloropleth
+            title = "Population", position = "bottomright") %>% 
+  # You can customize the legend title and position as needed
+  addPolygons(data = my_shp,  # Add polygons from shapefile
+              fillColor = mypalette(my_shp$POPULATION),  # Set fill color using palette
+              fillOpacity = 0.7,  # Set fill opacity
+              color = "#BDBDC3",  # Set border color
+              weight = 1,  # Set border weight,
+              label = my_shp$NAME)
+map5
+map6 <- map5 %>%  # Set label contents
+  # You can customize the label contents as needed
+  addMarkers(lng = -93.6199, lat = 42.0261,  # Add markers for San Francisco
+             popup = "Iowa", label = "Lovely Iowa")  # Set popup and label contents
+# You can customize the popup and label contents as needed
+map6
+
+
