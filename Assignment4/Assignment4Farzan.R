@@ -72,13 +72,14 @@ m
 
 library(leaflet)
 library(rgdal)
-
+library(readOGR)
 # Import shapefile and set projection
-us_states <- readOGR(dsn = "C:/Spring 2023/CRP 558/LA-558/GisData/States_shapefile", layer = "States_shapefile.shp")
+us_states <- readOGR(dsn = "C:/Spring 2023/CRP 558/LA-558/Assignment4/USA_States_(Generalized)", layer = "USA_States_Generalized")
 us_states <- spTransform(us_states, CRS("+proj=longlat +datum=WGS84"))
 
 # Create chloropleth map based on population density
 pal <- colorNumeric(palette = "Blues", domain = us_states@data$population_density)
+pal
 leaflet() %>%
   addProviderTiles("CartoDB.Positron") %>%
   addPolygons(data = us_states,
@@ -92,3 +93,15 @@ leaflet() %>%
             title = "Population Density (people per sq. mile)",
             position = "bottomright")
 
+leaflet() %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addPolygons(data = us_states,
+              fillColor = ~pal(population_density),
+              fillOpacity = 0.8,
+              color = "#b2b2b2",
+              weight = 1) %>%
+  addLabelOnlyMarkers(data = us_states,
+                      label = ~NAME,
+                      labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE),
+                      lng = ~coordinates(.)[1],
+                      lat = ~coordinates(.)[2])
