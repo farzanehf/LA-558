@@ -19,6 +19,8 @@ This is my [Exercise_6a](Exercises_/ex6a.md)
 
 This is my [Exercise_7b](Exercises_/ex7b.md)
 
+Needs to work [Exercise_10b](Exercises_/.md)
+
 # Assignments
 
 This is my [Assignment_2](Exercises_/assignment2.md)
