@@ -17,7 +17,7 @@
 
 ## Map 5:Add a Popup or a label
 
-![alt text](Assign4.map42.PNG     "Add a Popup or a label")
+![alt text](Assign4.map42.png     "Add a Popup or a label")
 
 
 ## Map 6:Add a Legend 
