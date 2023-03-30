@@ -31,4 +31,4 @@ This is my [Assignment_4](Exercises_/index4.md)
 
 
 # Final Project
-This is my [Proposal](Exercises_/Final Project.md)
+This is my [Proposal]([Exercises_](https://github.com/farzanehf/LA-558/tree/main/Exercises_/)/Final Project.md)
