@@ -33,9 +33,8 @@ I will use R and Q-GIS as well as Tableau to tell the data analysis in a fluent 
 
 ## Data:
 
-### 	Crash Data
-
-### 	Vehicle Level Crash Data
+### •	Crash Data
+### • Vehicle Level Crash Data
 ### •	Wind turbines Shapefile Data
 ### •	City Area Shapefile Data
 
@@ -48,6 +47,8 @@ I will use R and Q-GIS as well as Tableau to tell the data analysis in a fluent 
 ### •	Merging Data that crash data has since 2012 but vehicle level has since 2013.
 
 ## Timeline:
-### I am planning to finish up this project by the end of April 2023. 
-### I will start with cleaning, merging, mapping in GIS, analyzing, plotting in R or Tableau, building the webpage, and finally writing my story.
+
+#### I am planning to finish up this project by the end of April 2023. 
+
+#### I will start with cleaning, merging, mapping in GIS, analyzing, plotting in R or Tableau, building the webpage, and finally writing my story.
 
