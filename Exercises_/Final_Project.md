@@ -33,18 +33,18 @@ I will use R and Q-GIS as well as Tableau to tell the data analysis in a fluent 
 
 ## Data:
 
-### •	Crash Data
-### • Vehicle Level Crash Data
-### •	Wind turbines Shapefile Data
-### •	City Area Shapefile Data
+#### •	Crash Data
+#### • Vehicle Level Crash Data
+#### •	Wind turbines Shapefile Data
+#### •	City Area Shapefile Data
 
 ## Inspiration:
-### •	Iowa DOT Open Data: https://public-iowadot.opendata.arcgis.com/
-### •	The U.S. Wind Turbine Database: https://eerscmap.usgs.gov/uswtdb/
+#### •	Iowa DOT Open Data: https://public-iowadot.opendata.arcgis.com/
+#### •	The U.S. Wind Turbine Database: https://eerscmap.usgs.gov/uswtdb/
 
 ## Potential Challenges:
-### •	Cleaning Data
-### •	Merging Data that crash data has since 2012 but vehicle level has since 2013.
+#### •	Cleaning Data
+#### •	Merging Data that crash data has since 2012 but vehicle level has since 2013.
 
 ## Timeline:
 
