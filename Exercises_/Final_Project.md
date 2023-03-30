@@ -28,11 +28,14 @@ to study and better understand the influence of windmills on the distraction of 
 crashes. 
 
 ## Technology:
+
 I will use R and Q-GIS as well as Tableau to tell the data analysis in a fluent story.
 
 ## Data:
-### •	Crash Data
-### •	Vehicle Level Crash Data
+
+### 	Crash Data
+
+### 	Vehicle Level Crash Data
 ### •	Wind turbines Shapefile Data
 ### •	City Area Shapefile Data
 
