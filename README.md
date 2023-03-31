@@ -29,6 +29,8 @@ This is my [Assignment_3](Exercises_/index.md)
 
 This is my [Assignment_4](Exercises_/index4.md)
 
+Needs to work [Assignment_6](Exercises_/Assignment6.md)
+
 
 # Final Project
 This is my [Proposal](https://github.com/farzanehf/LA-558/tree/main/Exercises_/Final_Project.md)
