@@ -31,6 +31,8 @@ This is my [Assignment_4](Exercises_/index4.md)
 
 Needs to work [Assignment_6](Exercises_/Assignment6.md)
 
+Needs to work [Assignment_7](Exercises_/Assignment7.md)
+
 
 # Final Project
 This is my [Proposal (Assignment_5)](https://github.com/farzanehf/LA-558/tree/main/Exercises_/Final_Project.md)
