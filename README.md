@@ -29,7 +29,7 @@ This is my [Assignment_3](Exercises_/index.md)
 
 This is my [Assignment_4](Exercises_/index4.md)
 
-Needs to work [Assignment_6](Exercises_/Assignment6.md)
+This is my [Assignment_6](Exercises_/Assignment6.md)
 
 Needs to work [Assignment_7](Exercises_/Assignment7.md)
 
