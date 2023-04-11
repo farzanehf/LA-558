@@ -7,5 +7,5 @@
 #### - I recommend using this assignment to Explore some of your ideas for your final project. 
 
 # Map 1 & Map 2 & Map 3
-### [All Map are ]([https://github.com/farzanehf/LA-558/tree/main/Exercises_/](https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/Assignment6-Farzan/Dashboard1?publish=yes))
+### [All Map are here:](https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/Assignment6-Farzan/Dashboard1?publish=yes)
  
