@@ -31,7 +31,7 @@ This is my [Assignment_4](Exercises_/index4.md)
 
 This is my [Assignment_6](Exercises_/Assignment6.md)
 
-Needs to work [Assignment_7](Exercises_/Assignment7.md)
+This is my [Assignment_7](Exercises_/Assignment7.md)
 
 
 # Final Project
