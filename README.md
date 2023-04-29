@@ -19,7 +19,9 @@ This is my [Exercise_6a](Exercises_/ex6a.md)
 
 This is my [Exercise_7b](Exercises_/ex7b.md)
 
-Needs to work [Exercise_10b](Exercises_/.md)
+This is my [Exercise_10b](Exercises_/ex10b.md)
+
+
 
 # Assignments
 
@@ -33,7 +35,7 @@ This is my [Assignment_6](Exercises_/Assignment6.md)
 
 This is my [Assignment_7](Exercises_/Assignment7.html)
 
-Here:
+Here is my Assignment 7 Tablue link:
 https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/Assignment7-Farzan/Dashboard1?publish=yes
 
 
