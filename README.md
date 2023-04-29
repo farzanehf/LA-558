@@ -21,6 +21,9 @@ This is my [Exercise_7b](Exercises_/ex7b.md)
 
 This is my [Exercise_10b](Exercises_/ex10b.md)
 
+Here is the Tablue link for Excercise 10b:
+https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/ex10b/Dashboard1?publish=yes
+
 
 
 # Assignments
