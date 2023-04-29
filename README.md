@@ -32,6 +32,8 @@ This is my [Assignment_4](Exercises_/index4.md)
 This is my [Assignment_6](Exercises_/Assignment6.md)
 
 This is my [Assignment_7](Exercises_/Assignment7.html)
+Here:
+https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/Assignment7-Farzan/Dashboard1?publish=yes
 
 
 # Final Project
