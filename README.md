@@ -36,3 +36,6 @@ This is my [Assignment_7](Exercises_/Assignment7.html)
 
 # Final Project
 This is my [Proposal (Assignment_5)](https://github.com/farzanehf/LA-558/tree/main/Exercises_/Final_Project.html)
+
+You can see my final project here:
+https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/Final_Project_Farzan_Story3/USAWindPower?publish=yes
