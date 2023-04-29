@@ -41,7 +41,7 @@ This is my [Assignment_7](Exercises_/Assignment7.html)
 
 Here is my Assignment 7 Tablue link:
 
-https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/Assignment7-Farzan/Dashboard1?publish=yes
+![alt text](https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/Assignment7-Farzan/Dashboard1?publish=yes)
 
 
 # Final Project
@@ -49,4 +49,4 @@ This is my [Proposal (Assignment_5)](https://github.com/farzanehf/LA-558/tree/ma
 
 You can see my final project here:
 
-https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/Final_Project_Farzan_Story3/USAWindPower?publish=yes
+![alt text](https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/Final_Project_Farzan_Story3/USAWindPower?publish=yes)
