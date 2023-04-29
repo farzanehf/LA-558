@@ -25,8 +25,6 @@ I will use R and Q-GIS as well as Tableau to tell the data analysis in a fluent 
 
 ## Data:
 
-#### •	Crash Data
-#### • Vehicle Level Crash Data
 #### •	Wind turbines Shapefile Data
 #### •	City Area Shapefile Data
 
@@ -36,7 +34,7 @@ I will use R and Q-GIS as well as Tableau to tell the data analysis in a fluent 
 
 ## Potential Challenges:
 #### •	Cleaning Data
-#### •	Merging Data that crash data has since 2012 but vehicle level has since 2013.
+#### •	Merging Data 
 #### • Tableau is new for me. So, it will be the main challenge for me.
 
 ## Timeline:
