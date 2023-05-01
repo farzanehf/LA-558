@@ -50,3 +50,8 @@ This is my [Proposal (Assignment_5)](https://github.com/farzanehf/LA-558/tree/ma
 You can see my final project here:
 
 https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/Final_Project_Farzan_Story3/USAWindPower?publish=yes
+
+This is my PDF file to show the process:
+
+[Final Project Process.pdf](https://github.com/farzanehf/LA-558/files/11365826/Final.Project.Process.pdf)
+
