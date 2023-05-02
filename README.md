@@ -35,7 +35,12 @@ This is my [Assignment_3](Exercises_/index.md)
 
 This is my [Assignment_4](Exercises_/index4.md)
 
-This is my [Assignment_6](Exercises_/Assignment6.md)
+This is my [Assignment_6](Exercises_/Assignment6.html)
+
+Here is my Assignment 6 Tablue link:
+
+https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/Assignment6-Farzan/Dashboard1?publish=yes
+
 
 This is my [Assignment_7](Exercises_/Assignment7.html)
 
