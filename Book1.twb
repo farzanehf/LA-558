@@ -1,0 +1,3254 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SpatialFileLayer />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Crash_Months_Source_Daytime_201 (Crash_Months_Source_Daytime_2012_2019)' inline='true' name='federated.0dily3d0sjzo2o1h45ovi01qpj3z' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Crash_Months_Source_Daytime_2012_2019' name='excel-direct.1dn1oh60f6qjd61dduf1k07bb329'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Spring 2023/Thesis2022Farzaneh/Crash_Months_Source_Daytime_2012_2019.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='Crash_Months_Source_Daytime_201+' type='union'>
+          <columns header='yes'>
+            <column datatype='string' name='F1' />
+            <column datatype='integer' name='OBJECTID' />
+            <column datatype='integer' name='XCOORD' />
+            <column datatype='integer' name='YCOORD' />
+            <column datatype='real' name='X' />
+            <column datatype='real' name='Y' />
+            <column datatype='real' name='LATITUDE' />
+            <column datatype='real' name='LONGITUDE' />
+            <column datatype='integer' name='FIRSTHARM' />
+            <column datatype='integer' name='MAJORCAUSE' />
+            <column datatype='integer' name='CRCOMANNER' />
+            <column datatype='integer' name='DRUGALCREL' />
+            <column datatype='integer' name='ECONTCIRC' />
+            <column datatype='integer' name='WEATHER1' />
+            <column datatype='integer' name='WEATHER2' />
+            <column datatype='integer' name='LIGHT' />
+            <column datatype='integer' name='CSURFCOND' />
+            <column datatype='integer' name='LANEDIR' />
+            <column datatype='integer' name='OVERUNDER' />
+            <column datatype='integer' name='CRASHMONTH' />
+            <column datatype='integer' name='CRASH_YEAR' />
+            <column datatype='integer' name='CRASH_TIME' />
+            <column datatype='string' name='TIMESTR' />
+            <column datatype='integer' name='TIMEDAY' />
+            <column datatype='integer' name='TIMEBIN' />
+            <column datatype='integer' name='TIMEBIN1' />
+            <column datatype='integer' name='TIMEBIN30' />
+            <column datatype='integer' name='LIGHTING' />
+            <column datatype='integer' name='DAYLIGHT' />
+            <column datatype='integer' name='DARKNESS' />
+            <column datatype='integer' name='LOCFSTHARM' />
+            <column datatype='string' name='RURALURBAN' />
+            <column datatype='integer' name='COUNTY' />
+            <column datatype='integer' name='CITY' />
+            <column datatype='integer' name='CITYBR' />
+            <column datatype='string' name='CITYNAME' />
+            <column datatype='integer' name='URBANAREA' />
+            <column datatype='integer' name='SYSTEM' />
+            <column datatype='integer' name='ROUTE' />
+            <column datatype='string' name='SYSTEMSTR' />
+            <column datatype='integer' name='CARDINAL' />
+            <column datatype='integer' name='RAMP' />
+            <column datatype='integer' name='ROADCLASS' />
+            <column datatype='integer' name='ROADTYPE' />
+            <column datatype='integer' name='FATALITIES' />
+            <column datatype='integer' name='INJURIES' />
+            <column datatype='integer' name='MAJINJURY' />
+            <column datatype='integer' name='MININJURY' />
+            <column datatype='integer' name='POSSINJURY' />
+            <column datatype='integer' name='UNKINJURY' />
+            <column datatype='integer' name='PROPDMG' />
+            <column datatype='integer' name='VEHICLES' />
+            <column datatype='integer' name='CSEVERITY' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='excel-direct.1dn1oh60f6qjd61dduf1k07bb329' name='Crash_Months_Source_Daytime_201' table='[Crash_Months_Source_Daytime_201$]' type='table'>
+            <columns gridOrigin='A1:BA10001:no:A1:BA10001:0' header='yes' outcome='2'>
+              <column datatype='string' name='F1' ordinal='0' />
+              <column datatype='integer' name='OBJECTID' ordinal='1' />
+              <column datatype='integer' name='XCOORD' ordinal='2' />
+              <column datatype='integer' name='YCOORD' ordinal='3' />
+              <column datatype='real' name='X' ordinal='4' />
+              <column datatype='real' name='Y' ordinal='5' />
+              <column datatype='real' name='LATITUDE' ordinal='6' />
+              <column datatype='real' name='LONGITUDE' ordinal='7' />
+              <column datatype='integer' name='FIRSTHARM' ordinal='8' />
+              <column datatype='integer' name='MAJORCAUSE' ordinal='9' />
+              <column datatype='integer' name='CRCOMANNER' ordinal='10' />
+              <column datatype='integer' name='DRUGALCREL' ordinal='11' />
+              <column datatype='integer' name='ECONTCIRC' ordinal='12' />
+              <column datatype='integer' name='WEATHER1' ordinal='13' />
+              <column datatype='integer' name='WEATHER2' ordinal='14' />
+              <column datatype='integer' name='LIGHT' ordinal='15' />
+              <column datatype='integer' name='CSURFCOND' ordinal='16' />
+              <column datatype='integer' name='LANEDIR' ordinal='17' />
+              <column datatype='integer' name='OVERUNDER' ordinal='18' />
+              <column datatype='integer' name='CRASHMONTH' ordinal='19' />
+              <column datatype='integer' name='CRASH_YEAR' ordinal='20' />
+              <column datatype='integer' name='CRASH_TIME' ordinal='21' />
+              <column datatype='string' name='TIMESTR' ordinal='22' />
+              <column datatype='integer' name='TIMEDAY' ordinal='23' />
+              <column datatype='integer' name='TIMEBIN' ordinal='24' />
+              <column datatype='integer' name='TIMEBIN1' ordinal='25' />
+              <column datatype='integer' name='TIMEBIN30' ordinal='26' />
+              <column datatype='integer' name='LIGHTING' ordinal='27' />
+              <column datatype='integer' name='DAYLIGHT' ordinal='28' />
+              <column datatype='integer' name='DARKNESS' ordinal='29' />
+              <column datatype='integer' name='LOCFSTHARM' ordinal='30' />
+              <column datatype='string' name='RURALURBAN' ordinal='31' />
+              <column datatype='integer' name='COUNTY' ordinal='32' />
+              <column datatype='integer' name='CITY' ordinal='33' />
+              <column datatype='integer' name='CITYBR' ordinal='34' />
+              <column datatype='string' name='CITYNAME' ordinal='35' />
+              <column datatype='integer' name='URBANAREA' ordinal='36' />
+              <column datatype='integer' name='SYSTEM' ordinal='37' />
+              <column datatype='integer' name='ROUTE' ordinal='38' />
+              <column datatype='string' name='SYSTEMSTR' ordinal='39' />
+              <column datatype='integer' name='CARDINAL' ordinal='40' />
+              <column datatype='integer' name='RAMP' ordinal='41' />
+              <column datatype='integer' name='ROADCLASS' ordinal='42' />
+              <column datatype='integer' name='ROADTYPE' ordinal='43' />
+              <column datatype='integer' name='FATALITIES' ordinal='44' />
+              <column datatype='integer' name='INJURIES' ordinal='45' />
+              <column datatype='integer' name='MAJINJURY' ordinal='46' />
+              <column datatype='integer' name='MININJURY' ordinal='47' />
+              <column datatype='integer' name='POSSINJURY' ordinal='48' />
+              <column datatype='integer' name='UNKINJURY' ordinal='49' />
+              <column datatype='integer' name='PROPDMG' ordinal='50' />
+              <column datatype='integer' name='VEHICLES' ordinal='51' />
+              <column datatype='integer' name='CSEVERITY' ordinal='52' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='Crash_Months_Source_Daytime_201+' type='union'>
+          <columns header='yes'>
+            <column datatype='string' name='F1' />
+            <column datatype='integer' name='OBJECTID' />
+            <column datatype='integer' name='XCOORD' />
+            <column datatype='integer' name='YCOORD' />
+            <column datatype='real' name='X' />
+            <column datatype='real' name='Y' />
+            <column datatype='real' name='LATITUDE' />
+            <column datatype='real' name='LONGITUDE' />
+            <column datatype='integer' name='FIRSTHARM' />
+            <column datatype='integer' name='MAJORCAUSE' />
+            <column datatype='integer' name='CRCOMANNER' />
+            <column datatype='integer' name='DRUGALCREL' />
+            <column datatype='integer' name='ECONTCIRC' />
+            <column datatype='integer' name='WEATHER1' />
+            <column datatype='integer' name='WEATHER2' />
+            <column datatype='integer' name='LIGHT' />
+            <column datatype='integer' name='CSURFCOND' />
+            <column datatype='integer' name='LANEDIR' />
+            <column datatype='integer' name='OVERUNDER' />
+            <column datatype='integer' name='CRASHMONTH' />
+            <column datatype='integer' name='CRASH_YEAR' />
+            <column datatype='integer' name='CRASH_TIME' />
+            <column datatype='string' name='TIMESTR' />
+            <column datatype='integer' name='TIMEDAY' />
+            <column datatype='integer' name='TIMEBIN' />
+            <column datatype='integer' name='TIMEBIN1' />
+            <column datatype='integer' name='TIMEBIN30' />
+            <column datatype='integer' name='LIGHTING' />
+            <column datatype='integer' name='DAYLIGHT' />
+            <column datatype='integer' name='DARKNESS' />
+            <column datatype='integer' name='LOCFSTHARM' />
+            <column datatype='string' name='RURALURBAN' />
+            <column datatype='integer' name='COUNTY' />
+            <column datatype='integer' name='CITY' />
+            <column datatype='integer' name='CITYBR' />
+            <column datatype='string' name='CITYNAME' />
+            <column datatype='integer' name='URBANAREA' />
+            <column datatype='integer' name='SYSTEM' />
+            <column datatype='integer' name='ROUTE' />
+            <column datatype='string' name='SYSTEMSTR' />
+            <column datatype='integer' name='CARDINAL' />
+            <column datatype='integer' name='RAMP' />
+            <column datatype='integer' name='ROADCLASS' />
+            <column datatype='integer' name='ROADTYPE' />
+            <column datatype='integer' name='FATALITIES' />
+            <column datatype='integer' name='INJURIES' />
+            <column datatype='integer' name='MAJINJURY' />
+            <column datatype='integer' name='MININJURY' />
+            <column datatype='integer' name='POSSINJURY' />
+            <column datatype='integer' name='UNKINJURY' />
+            <column datatype='integer' name='PROPDMG' />
+            <column datatype='integer' name='VEHICLES' />
+            <column datatype='integer' name='CSEVERITY' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='excel-direct.1dn1oh60f6qjd61dduf1k07bb329' name='Crash_Months_Source_Daytime_201' table='[Crash_Months_Source_Daytime_201$]' type='table'>
+            <columns gridOrigin='A1:BA10001:no:A1:BA10001:0' header='yes' outcome='2'>
+              <column datatype='string' name='F1' ordinal='0' />
+              <column datatype='integer' name='OBJECTID' ordinal='1' />
+              <column datatype='integer' name='XCOORD' ordinal='2' />
+              <column datatype='integer' name='YCOORD' ordinal='3' />
+              <column datatype='real' name='X' ordinal='4' />
+              <column datatype='real' name='Y' ordinal='5' />
+              <column datatype='real' name='LATITUDE' ordinal='6' />
+              <column datatype='real' name='LONGITUDE' ordinal='7' />
+              <column datatype='integer' name='FIRSTHARM' ordinal='8' />
+              <column datatype='integer' name='MAJORCAUSE' ordinal='9' />
+              <column datatype='integer' name='CRCOMANNER' ordinal='10' />
+              <column datatype='integer' name='DRUGALCREL' ordinal='11' />
+              <column datatype='integer' name='ECONTCIRC' ordinal='12' />
+              <column datatype='integer' name='WEATHER1' ordinal='13' />
+              <column datatype='integer' name='WEATHER2' ordinal='14' />
+              <column datatype='integer' name='LIGHT' ordinal='15' />
+              <column datatype='integer' name='CSURFCOND' ordinal='16' />
+              <column datatype='integer' name='LANEDIR' ordinal='17' />
+              <column datatype='integer' name='OVERUNDER' ordinal='18' />
+              <column datatype='integer' name='CRASHMONTH' ordinal='19' />
+              <column datatype='integer' name='CRASH_YEAR' ordinal='20' />
+              <column datatype='integer' name='CRASH_TIME' ordinal='21' />
+              <column datatype='string' name='TIMESTR' ordinal='22' />
+              <column datatype='integer' name='TIMEDAY' ordinal='23' />
+              <column datatype='integer' name='TIMEBIN' ordinal='24' />
+              <column datatype='integer' name='TIMEBIN1' ordinal='25' />
+              <column datatype='integer' name='TIMEBIN30' ordinal='26' />
+              <column datatype='integer' name='LIGHTING' ordinal='27' />
+              <column datatype='integer' name='DAYLIGHT' ordinal='28' />
+              <column datatype='integer' name='DARKNESS' ordinal='29' />
+              <column datatype='integer' name='LOCFSTHARM' ordinal='30' />
+              <column datatype='string' name='RURALURBAN' ordinal='31' />
+              <column datatype='integer' name='COUNTY' ordinal='32' />
+              <column datatype='integer' name='CITY' ordinal='33' />
+              <column datatype='integer' name='CITYBR' ordinal='34' />
+              <column datatype='string' name='CITYNAME' ordinal='35' />
+              <column datatype='integer' name='URBANAREA' ordinal='36' />
+              <column datatype='integer' name='SYSTEM' ordinal='37' />
+              <column datatype='integer' name='ROUTE' ordinal='38' />
+              <column datatype='string' name='SYSTEMSTR' ordinal='39' />
+              <column datatype='integer' name='CARDINAL' ordinal='40' />
+              <column datatype='integer' name='RAMP' ordinal='41' />
+              <column datatype='integer' name='ROADCLASS' ordinal='42' />
+              <column datatype='integer' name='ROADTYPE' ordinal='43' />
+              <column datatype='integer' name='FATALITIES' ordinal='44' />
+              <column datatype='integer' name='INJURIES' ordinal='45' />
+              <column datatype='integer' name='MAJINJURY' ordinal='46' />
+              <column datatype='integer' name='MININJURY' ordinal='47' />
+              <column datatype='integer' name='POSSINJURY' ordinal='48' />
+              <column datatype='integer' name='UNKINJURY' ordinal='49' />
+              <column datatype='integer' name='PROPDMG' ordinal='50' />
+              <column datatype='integer' name='VEHICLES' ordinal='51' />
+              <column datatype='integer' name='CSEVERITY' ordinal='52' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BA10001:no:A1:BA10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OBJECTID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OBJECTID]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>OBJECTID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>XCOORD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[XCOORD]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>XCOORD</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YCOORD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YCOORD]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>YCOORD</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>X</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Y</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Y]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>Y</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LATITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LATITUDE]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>LATITUDE</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LONGITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LONGITUDE]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>LONGITUDE</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FIRSTHARM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FIRSTHARM]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>FIRSTHARM</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAJORCAUSE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAJORCAUSE]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>MAJORCAUSE</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRCOMANNER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CRCOMANNER]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>CRCOMANNER</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DRUGALCREL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DRUGALCREL]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>DRUGALCREL</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ECONTCIRC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ECONTCIRC]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>ECONTCIRC</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WEATHER1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WEATHER1]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>WEATHER1</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WEATHER2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WEATHER2]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>WEATHER2</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LIGHT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LIGHT]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>LIGHT</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CSURFCOND</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CSURFCOND]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>CSURFCOND</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LANEDIR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LANEDIR]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>LANEDIR</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OVERUNDER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OVERUNDER]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>OVERUNDER</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRASHMONTH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CRASHMONTH]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>CRASHMONTH</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRASH_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CRASH_YEAR]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>CRASH_YEAR</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRASH_TIME</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CRASH_TIME]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>CRASH_TIME</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIMESTR</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[TIMESTR]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>TIMESTR</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIMEDAY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TIMEDAY]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>TIMEDAY</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIMEBIN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TIMEBIN]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>TIMEBIN</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIMEBIN1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TIMEBIN1]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>TIMEBIN1</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIMEBIN30</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TIMEBIN30]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>TIMEBIN30</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LIGHTING</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LIGHTING]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>LIGHTING</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAYLIGHT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DAYLIGHT]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>DAYLIGHT</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DARKNESS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DARKNESS]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>DARKNESS</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOCFSTHARM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LOCFSTHARM]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>LOCFSTHARM</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RURALURBAN</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[RURALURBAN]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>RURALURBAN</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNTY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COUNTY]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>COUNTY</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CITY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CITY]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>CITY</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CITYBR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CITYBR]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>CITYBR</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CITYNAME</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CITYNAME]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>CITYNAME</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>URBANAREA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[URBANAREA]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>URBANAREA</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SYSTEM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SYSTEM]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>SYSTEM</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROUTE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ROUTE]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>ROUTE</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SYSTEMSTR</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SYSTEMSTR]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>SYSTEMSTR</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CARDINAL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CARDINAL]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>CARDINAL</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RAMP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RAMP]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>RAMP</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROADCLASS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ROADCLASS]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>ROADCLASS</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROADTYPE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ROADTYPE]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>ROADTYPE</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FATALITIES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FATALITIES]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>FATALITIES</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INJURIES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INJURIES]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>INJURIES</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAJINJURY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAJINJURY]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>MAJINJURY</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MININJURY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MININJURY]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>MININJURY</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POSSINJURY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POSSINJURY]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>POSSINJURY</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNKINJURY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UNKINJURY]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>UNKINJURY</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROPDMG</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PROPDMG]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>PROPDMG</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VEHICLES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[VEHICLES]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>VEHICLES</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CSEVERITY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CSEVERITY]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>CSEVERITY</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sheet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sheet]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>Sheet</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[Crash_Months_Source_Daytime_201+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Cardinal' datatype='integer' name='[CARDINAL]' role='measure' type='quantitative' />
+      <column caption='Citybr' datatype='integer' name='[CITYBR]' role='measure' type='quantitative' />
+      <column caption='Cityname' datatype='string' name='[CITYNAME]' role='dimension' type='nominal' />
+      <column caption='City' datatype='integer' name='[CITY]' role='measure' type='quantitative' />
+      <column caption='County' datatype='integer' name='[COUNTY]' role='measure' type='quantitative' />
+      <column caption='Crashmonth' datatype='integer' name='[CRASHMONTH]' role='measure' type='quantitative' />
+      <column caption='Crash Time' datatype='integer' name='[CRASH_TIME]' role='measure' type='quantitative' />
+      <column caption='Crash Year' datatype='integer' name='[CRASH_YEAR]' role='dimension' type='quantitative' />
+      <column caption='Crcomanner' datatype='integer' name='[CRCOMANNER]' role='measure' type='quantitative' />
+      <column caption='Cseverity' datatype='integer' name='[CSEVERITY]' role='measure' type='quantitative' />
+      <column caption='Csurfcond' datatype='integer' name='[CSURFCOND]' role='measure' type='quantitative' />
+      <column caption='Darkness' datatype='integer' name='[DARKNESS]' role='measure' type='quantitative' />
+      <column caption='Daylight' datatype='integer' name='[DAYLIGHT]' role='measure' type='quantitative' />
+      <column caption='Drugalcrel' datatype='integer' name='[DRUGALCREL]' role='measure' type='quantitative' />
+      <column caption='Econtcirc' datatype='integer' name='[ECONTCIRC]' role='measure' type='quantitative' />
+      <column caption='Fatalities' datatype='integer' name='[FATALITIES]' role='measure' type='quantitative' />
+      <column caption='Firstharm' datatype='integer' name='[FIRSTHARM]' role='measure' type='quantitative' />
+      <column caption='Injuries' datatype='integer' name='[INJURIES]' role='measure' type='quantitative' />
+      <column caption='Lanedir' datatype='integer' name='[LANEDIR]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[LATITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Lighting' datatype='integer' name='[LIGHTING]' role='measure' type='quantitative' />
+      <column caption='Light' datatype='integer' name='[LIGHT]' role='measure' type='quantitative' />
+      <column caption='Locfstharm' datatype='integer' name='[LOCFSTHARM]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Majinjury' datatype='integer' name='[MAJINJURY]' role='measure' type='quantitative' />
+      <column caption='Majorcause' datatype='integer' name='[MAJORCAUSE]' role='measure' type='quantitative' />
+      <column caption='Mininjury' datatype='integer' name='[MININJURY]' role='measure' type='quantitative' />
+      <column caption='Objectid' datatype='integer' name='[OBJECTID]' role='measure' type='quantitative' />
+      <column caption='Overunder' datatype='integer' name='[OVERUNDER]' role='measure' type='quantitative' />
+      <column caption='Possinjury' datatype='integer' name='[POSSINJURY]' role='measure' type='quantitative' />
+      <column caption='Propdmg' datatype='integer' name='[PROPDMG]' role='measure' type='quantitative' />
+      <column caption='Ramp' datatype='integer' name='[RAMP]' role='measure' type='quantitative' />
+      <column caption='Roadclass' datatype='integer' name='[ROADCLASS]' role='measure' type='quantitative' />
+      <column caption='Roadtype' datatype='integer' name='[ROADTYPE]' role='measure' type='quantitative' />
+      <column caption='Route' datatype='integer' name='[ROUTE]' role='measure' type='quantitative' />
+      <column caption='Ruralurban' datatype='string' name='[RURALURBAN]' role='dimension' type='nominal' />
+      <column caption='Systemstr' datatype='string' name='[SYSTEMSTR]' role='dimension' type='nominal' />
+      <column caption='System' datatype='integer' name='[SYSTEM]' role='measure' type='quantitative' />
+      <column caption='Timebin1' datatype='integer' name='[TIMEBIN1]' role='measure' type='quantitative' />
+      <column caption='Timebin30' datatype='integer' name='[TIMEBIN30]' role='measure' type='quantitative' />
+      <column caption='Timebin' datatype='integer' name='[TIMEBIN]' role='measure' type='quantitative' />
+      <column caption='Timeday' datatype='integer' name='[TIMEDAY]' role='measure' type='quantitative' />
+      <column caption='Timestr' datatype='string' name='[TIMESTR]' role='dimension' type='nominal' />
+      <column caption='Unkinjury' datatype='integer' name='[UNKINJURY]' role='measure' type='quantitative' />
+      <column caption='Urbanarea' datatype='integer' name='[URBANAREA]' role='measure' type='quantitative' />
+      <column caption='Vehicles' datatype='integer' name='[VEHICLES]' role='measure' type='quantitative' />
+      <column caption='Weather1' datatype='integer' name='[WEATHER1]' role='measure' type='quantitative' />
+      <column caption='Weather2' datatype='integer' name='[WEATHER2]' role='measure' type='quantitative' />
+      <column caption='Xcoord' datatype='integer' name='[XCOORD]' role='measure' type='quantitative' />
+      <column caption='Ycoord' datatype='integer' name='[YCOORD]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Crash_Months_Source_Daytime_201' datatype='table' name='[__tableau_internal_object_id__].[Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Crash_Months_Source_Daytime_201' id='Crash!Months!Source!Daytime!201_B28E82F7A6B1450D9CA5578309C8F250'>
+            <properties context=''>
+              <relation all='true' name='Crash_Months_Source_Daytime_201+' type='union'>
+                <columns header='yes'>
+                  <column datatype='string' name='F1' />
+                  <column datatype='integer' name='OBJECTID' />
+                  <column datatype='integer' name='XCOORD' />
+                  <column datatype='integer' name='YCOORD' />
+                  <column datatype='real' name='X' />
+                  <column datatype='real' name='Y' />
+                  <column datatype='real' name='LATITUDE' />
+                  <column datatype='real' name='LONGITUDE' />
+                  <column datatype='integer' name='FIRSTHARM' />
+                  <column datatype='integer' name='MAJORCAUSE' />
+                  <column datatype='integer' name='CRCOMANNER' />
+                  <column datatype='integer' name='DRUGALCREL' />
+                  <column datatype='integer' name='ECONTCIRC' />
+                  <column datatype='integer' name='WEATHER1' />
+                  <column datatype='integer' name='WEATHER2' />
+                  <column datatype='integer' name='LIGHT' />
+                  <column datatype='integer' name='CSURFCOND' />
+                  <column datatype='integer' name='LANEDIR' />
+                  <column datatype='integer' name='OVERUNDER' />
+                  <column datatype='integer' name='CRASHMONTH' />
+                  <column datatype='integer' name='CRASH_YEAR' />
+                  <column datatype='integer' name='CRASH_TIME' />
+                  <column datatype='string' name='TIMESTR' />
+                  <column datatype='integer' name='TIMEDAY' />
+                  <column datatype='integer' name='TIMEBIN' />
+                  <column datatype='integer' name='TIMEBIN1' />
+                  <column datatype='integer' name='TIMEBIN30' />
+                  <column datatype='integer' name='LIGHTING' />
+                  <column datatype='integer' name='DAYLIGHT' />
+                  <column datatype='integer' name='DARKNESS' />
+                  <column datatype='integer' name='LOCFSTHARM' />
+                  <column datatype='string' name='RURALURBAN' />
+                  <column datatype='integer' name='COUNTY' />
+                  <column datatype='integer' name='CITY' />
+                  <column datatype='integer' name='CITYBR' />
+                  <column datatype='string' name='CITYNAME' />
+                  <column datatype='integer' name='URBANAREA' />
+                  <column datatype='integer' name='SYSTEM' />
+                  <column datatype='integer' name='ROUTE' />
+                  <column datatype='string' name='SYSTEMSTR' />
+                  <column datatype='integer' name='CARDINAL' />
+                  <column datatype='integer' name='RAMP' />
+                  <column datatype='integer' name='ROADCLASS' />
+                  <column datatype='integer' name='ROADTYPE' />
+                  <column datatype='integer' name='FATALITIES' />
+                  <column datatype='integer' name='INJURIES' />
+                  <column datatype='integer' name='MAJINJURY' />
+                  <column datatype='integer' name='MININJURY' />
+                  <column datatype='integer' name='POSSINJURY' />
+                  <column datatype='integer' name='UNKINJURY' />
+                  <column datatype='integer' name='PROPDMG' />
+                  <column datatype='integer' name='VEHICLES' />
+                  <column datatype='integer' name='CSEVERITY' />
+                  <column datatype='string' name='Sheet' />
+                  <column datatype='string' name='Table Name' />
+                </columns>
+                <relation connection='excel-direct.1dn1oh60f6qjd61dduf1k07bb329' name='Crash_Months_Source_Daytime_201' table='[Crash_Months_Source_Daytime_201$]' type='table'>
+                  <columns gridOrigin='A1:BA10001:no:A1:BA10001:0' header='yes' outcome='2'>
+                    <column datatype='string' name='F1' ordinal='0' />
+                    <column datatype='integer' name='OBJECTID' ordinal='1' />
+                    <column datatype='integer' name='XCOORD' ordinal='2' />
+                    <column datatype='integer' name='YCOORD' ordinal='3' />
+                    <column datatype='real' name='X' ordinal='4' />
+                    <column datatype='real' name='Y' ordinal='5' />
+                    <column datatype='real' name='LATITUDE' ordinal='6' />
+                    <column datatype='real' name='LONGITUDE' ordinal='7' />
+                    <column datatype='integer' name='FIRSTHARM' ordinal='8' />
+                    <column datatype='integer' name='MAJORCAUSE' ordinal='9' />
+                    <column datatype='integer' name='CRCOMANNER' ordinal='10' />
+                    <column datatype='integer' name='DRUGALCREL' ordinal='11' />
+                    <column datatype='integer' name='ECONTCIRC' ordinal='12' />
+                    <column datatype='integer' name='WEATHER1' ordinal='13' />
+                    <column datatype='integer' name='WEATHER2' ordinal='14' />
+                    <column datatype='integer' name='LIGHT' ordinal='15' />
+                    <column datatype='integer' name='CSURFCOND' ordinal='16' />
+                    <column datatype='integer' name='LANEDIR' ordinal='17' />
+                    <column datatype='integer' name='OVERUNDER' ordinal='18' />
+                    <column datatype='integer' name='CRASHMONTH' ordinal='19' />
+                    <column datatype='integer' name='CRASH_YEAR' ordinal='20' />
+                    <column datatype='integer' name='CRASH_TIME' ordinal='21' />
+                    <column datatype='string' name='TIMESTR' ordinal='22' />
+                    <column datatype='integer' name='TIMEDAY' ordinal='23' />
+                    <column datatype='integer' name='TIMEBIN' ordinal='24' />
+                    <column datatype='integer' name='TIMEBIN1' ordinal='25' />
+                    <column datatype='integer' name='TIMEBIN30' ordinal='26' />
+                    <column datatype='integer' name='LIGHTING' ordinal='27' />
+                    <column datatype='integer' name='DAYLIGHT' ordinal='28' />
+                    <column datatype='integer' name='DARKNESS' ordinal='29' />
+                    <column datatype='integer' name='LOCFSTHARM' ordinal='30' />
+                    <column datatype='string' name='RURALURBAN' ordinal='31' />
+                    <column datatype='integer' name='COUNTY' ordinal='32' />
+                    <column datatype='integer' name='CITY' ordinal='33' />
+                    <column datatype='integer' name='CITYBR' ordinal='34' />
+                    <column datatype='string' name='CITYNAME' ordinal='35' />
+                    <column datatype='integer' name='URBANAREA' ordinal='36' />
+                    <column datatype='integer' name='SYSTEM' ordinal='37' />
+                    <column datatype='integer' name='ROUTE' ordinal='38' />
+                    <column datatype='string' name='SYSTEMSTR' ordinal='39' />
+                    <column datatype='integer' name='CARDINAL' ordinal='40' />
+                    <column datatype='integer' name='RAMP' ordinal='41' />
+                    <column datatype='integer' name='ROADCLASS' ordinal='42' />
+                    <column datatype='integer' name='ROADTYPE' ordinal='43' />
+                    <column datatype='integer' name='FATALITIES' ordinal='44' />
+                    <column datatype='integer' name='INJURIES' ordinal='45' />
+                    <column datatype='integer' name='MAJINJURY' ordinal='46' />
+                    <column datatype='integer' name='MININJURY' ordinal='47' />
+                    <column datatype='integer' name='POSSINJURY' ordinal='48' />
+                    <column datatype='integer' name='UNKINJURY' ordinal='49' />
+                    <column datatype='integer' name='PROPDMG' ordinal='50' />
+                    <column datatype='integer' name='VEHICLES' ordinal='51' />
+                    <column datatype='integer' name='CSEVERITY' ordinal='52' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='windmills_last_10_years' inline='true' name='federated.02stycn10e0kom1fo0rdg1gefw5k' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='windmills_last_10_years' name='textscan.0hrmk261i9uyp812afh820ttzku6'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Spring 2023/Thesis2022Farzaneh/us windmills CSV/windmills_last_10_years.csv' dataRefreshTime='' directory='C:/Spring 2023/Thesis2022Farzaneh/us windmills CSV' filename='C:/Users/farza/AppData/Local/Temp/TableauTemp/0xw9lqw0xc3mqh1299ejn07nxipp/windmills_last_10_years.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='Crash_Months_Source_Daytime_2012_2019' name='excel-direct.01x72hq1jgmhpu12oylgp0qyp1bn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Spring 2023/Thesis2022Farzaneh/Crash_Months_Source_Daytime_2012_2019.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0hrmk261i9uyp812afh820ttzku6' name='windmills_last_10_years.csv' table='[windmills_last_10_years#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:AA10001:no:A1:AA10001:2' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='case_id case_id' ordinal='0' />
+            <column datatype='string' name='faa_ors faa_ors' ordinal='1' />
+            <column datatype='string' name='faa_asn faa_asn' ordinal='2' />
+            <column datatype='integer' name='usgs_pr_id usgs_pr_id' ordinal='3' />
+            <column datatype='integer' name='eia_id eia_id' ordinal='4' />
+            <column datatype='string' name='t_state t_state' ordinal='5' />
+            <column datatype='string' name='t_county t_county' ordinal='6' />
+            <column datatype='integer' name='t_fips t_fips' ordinal='7' />
+            <column datatype='string' name='p_name p_name' ordinal='8' />
+            <column datatype='integer' name='p_year p_year' ordinal='9' />
+            <column datatype='integer' name='p_tnum p_tnum' ordinal='10' />
+            <column datatype='real' name='p_cap p_cap' ordinal='11' />
+            <column datatype='string' name='t_manu t_manu' ordinal='12' />
+            <column datatype='string' name='t_model t_model' ordinal='13' />
+            <column datatype='integer' name='t_cap t_cap' ordinal='14' />
+            <column datatype='real' name='t_hh t_hh' ordinal='15' />
+            <column datatype='real' name='t_rd t_rd' ordinal='16' />
+            <column datatype='real' name='t_rsa t_rsa' ordinal='17' />
+            <column datatype='real' name='t_ttlh t_ttlh' ordinal='18' />
+            <column datatype='integer' name='retrofit retrofit' ordinal='19' />
+            <column datatype='integer' name='retrofit_year retrofit_year' ordinal='20' />
+            <column datatype='integer' name='t_conf_atr t_conf_atr' ordinal='21' />
+            <column datatype='integer' name='t_conf_loc t_conf_loc' ordinal='22' />
+            <column datatype='string' name='t_img_date t_img_date' ordinal='23' />
+            <column datatype='string' name='t_img_srce t_img_srce' ordinal='24' />
+            <column datatype='real' name='xlong xlong' ordinal='25' />
+            <column datatype='real' name='ylat ylat' ordinal='26' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0hrmk261i9uyp812afh820ttzku6' name='windmills_last_10_years.csv' table='[windmills_last_10_years#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:AA10001:no:A1:AA10001:2' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='case_id case_id' ordinal='0' />
+            <column datatype='string' name='faa_ors faa_ors' ordinal='1' />
+            <column datatype='string' name='faa_asn faa_asn' ordinal='2' />
+            <column datatype='integer' name='usgs_pr_id usgs_pr_id' ordinal='3' />
+            <column datatype='integer' name='eia_id eia_id' ordinal='4' />
+            <column datatype='string' name='t_state t_state' ordinal='5' />
+            <column datatype='string' name='t_county t_county' ordinal='6' />
+            <column datatype='integer' name='t_fips t_fips' ordinal='7' />
+            <column datatype='string' name='p_name p_name' ordinal='8' />
+            <column datatype='integer' name='p_year p_year' ordinal='9' />
+            <column datatype='integer' name='p_tnum p_tnum' ordinal='10' />
+            <column datatype='real' name='p_cap p_cap' ordinal='11' />
+            <column datatype='string' name='t_manu t_manu' ordinal='12' />
+            <column datatype='string' name='t_model t_model' ordinal='13' />
+            <column datatype='integer' name='t_cap t_cap' ordinal='14' />
+            <column datatype='real' name='t_hh t_hh' ordinal='15' />
+            <column datatype='real' name='t_rd t_rd' ordinal='16' />
+            <column datatype='real' name='t_rsa t_rsa' ordinal='17' />
+            <column datatype='real' name='t_ttlh t_ttlh' ordinal='18' />
+            <column datatype='integer' name='retrofit retrofit' ordinal='19' />
+            <column datatype='integer' name='retrofit_year retrofit_year' ordinal='20' />
+            <column datatype='integer' name='t_conf_atr t_conf_atr' ordinal='21' />
+            <column datatype='integer' name='t_conf_loc t_conf_loc' ordinal='22' />
+            <column datatype='string' name='t_img_date t_img_date' ordinal='23' />
+            <column datatype='string' name='t_img_srce t_img_srce' ordinal='24' />
+            <column datatype='real' name='xlong xlong' ordinal='25' />
+            <column datatype='real' name='ylat ylat' ordinal='26' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AA10001:no:A1:AA10001:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>175507</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>case_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[case_id]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>case_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>faa_ors</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[faa_ors]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>faa_ors</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>faa_asn</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[faa_asn]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>faa_asn</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>usgs_pr_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[usgs_pr_id]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>usgs_pr_id</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eia_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[eia_id]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>eia_id</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[t_state]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_state</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_county</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[t_county]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_county</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_fips</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[t_fips]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_fips</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>p_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[p_name]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>p_name</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>p_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[p_year]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>p_year</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>p_tnum</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[p_tnum]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>p_tnum</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>p_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[p_cap]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>p_cap</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_manu</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[t_manu]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_manu</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_model</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[t_model]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_model</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_cap</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[t_cap]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_cap</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_hh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[t_hh]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_hh</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_rd</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[t_rd]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_rd</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_rsa</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[t_rsa]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_rsa</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_ttlh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[t_ttlh]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_ttlh</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>retrofit</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[retrofit]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>retrofit</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>retrofit_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[retrofit_year]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>retrofit_year</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_conf_atr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[t_conf_atr]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_conf_atr</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_conf_loc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[t_conf_loc]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_conf_loc</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_img_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[t_img_date]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_img_date</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>t_img_srce</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[t_img_srce]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>t_img_srce</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>xlong</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[xlong]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>xlong</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ylat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ylat]</local-name>
+            <parent-name>[windmills_last_10_years.csv]</parent-name>
+            <remote-alias>ylat</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='windmills_last_10_years.csv' datatype='table' name='[__tableau_internal_object_id__].[windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035]' role='measure' type='quantitative' />
+      <column caption='Case Id' datatype='integer' name='[case_id]' role='dimension' type='ordinal' />
+      <column caption='Eia Id' datatype='integer' name='[eia_id]' role='dimension' type='ordinal' />
+      <column caption='Faa Asn' datatype='string' name='[faa_asn]' role='dimension' type='nominal' />
+      <column caption='Faa Ors' datatype='string' name='[faa_ors]' role='dimension' type='nominal' />
+      <column caption='P Cap' datatype='real' name='[p_cap]' role='measure' type='quantitative' />
+      <column caption='P Name' datatype='string' name='[p_name]' role='dimension' type='nominal' />
+      <column caption='P Tnum' datatype='integer' name='[p_tnum]' role='measure' type='quantitative' />
+      <column caption='P Year' datatype='integer' name='[p_year]' role='dimension' type='quantitative' />
+      <column caption='Retrofit' datatype='integer' name='[retrofit]' role='measure' type='quantitative' />
+      <column caption='Retrofit Year' datatype='integer' name='[retrofit_year]' role='dimension' type='ordinal' />
+      <column caption='T Cap' datatype='integer' name='[t_cap]' role='measure' type='quantitative' />
+      <column caption='T Conf Atr' datatype='integer' name='[t_conf_atr]' role='measure' type='quantitative' />
+      <column caption='T Conf Loc' datatype='integer' name='[t_conf_loc]' role='measure' type='quantitative' />
+      <column caption='T County' datatype='string' name='[t_county]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='T Fips' datatype='integer' name='[t_fips]' role='measure' type='quantitative' />
+      <column caption='T Hh' datatype='real' name='[t_hh]' role='measure' type='quantitative' />
+      <column caption='T Img Date' datatype='date' name='[t_img_date]' role='dimension' type='ordinal' />
+      <column caption='T Img Srce' datatype='string' name='[t_img_srce]' role='dimension' type='nominal' />
+      <column caption='T Manu' datatype='string' name='[t_manu]' role='dimension' type='nominal' />
+      <column caption='T Model' datatype='string' name='[t_model]' role='dimension' type='nominal' />
+      <column caption='T Rd' datatype='real' name='[t_rd]' role='measure' type='quantitative' />
+      <column caption='T Rsa' datatype='real' name='[t_rsa]' role='measure' type='quantitative' />
+      <column caption='T State' datatype='string' name='[t_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='T Ttlh' datatype='real' name='[t_ttlh]' role='measure' type='quantitative' />
+      <column caption='Usgs Pr Id' datatype='integer' name='[usgs_pr_id]' role='dimension' type='ordinal' />
+      <column caption='Xlong' datatype='real' name='[xlong]' role='measure' type='quantitative' />
+      <column caption='Ylat' datatype='real' name='[ylat]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='t_state, t_county'>
+          <field>[t_state]</field>
+          <field>[t_county]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <filter class='categorical' column='[t_state]' filter-group='2'>
+        <groupfilter function='member' level='[t_state]' member='&quot;IA&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='windmills_last_10_years.csv' id='windmills_last_10_years.csv_173143A01A724C8A86EA2FCE6D145035'>
+            <properties context=''>
+              <relation connection='textscan.0hrmk261i9uyp812afh820ttzku6' name='windmills_last_10_years.csv' table='[windmills_last_10_years#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:AA10001:no:A1:AA10001:2' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='case_id case_id' ordinal='0' />
+                  <column datatype='string' name='faa_ors faa_ors' ordinal='1' />
+                  <column datatype='string' name='faa_asn faa_asn' ordinal='2' />
+                  <column datatype='integer' name='usgs_pr_id usgs_pr_id' ordinal='3' />
+                  <column datatype='integer' name='eia_id eia_id' ordinal='4' />
+                  <column datatype='string' name='t_state t_state' ordinal='5' />
+                  <column datatype='string' name='t_county t_county' ordinal='6' />
+                  <column datatype='integer' name='t_fips t_fips' ordinal='7' />
+                  <column datatype='string' name='p_name p_name' ordinal='8' />
+                  <column datatype='integer' name='p_year p_year' ordinal='9' />
+                  <column datatype='integer' name='p_tnum p_tnum' ordinal='10' />
+                  <column datatype='real' name='p_cap p_cap' ordinal='11' />
+                  <column datatype='string' name='t_manu t_manu' ordinal='12' />
+                  <column datatype='string' name='t_model t_model' ordinal='13' />
+                  <column datatype='integer' name='t_cap t_cap' ordinal='14' />
+                  <column datatype='real' name='t_hh t_hh' ordinal='15' />
+                  <column datatype='real' name='t_rd t_rd' ordinal='16' />
+                  <column datatype='real' name='t_rsa t_rsa' ordinal='17' />
+                  <column datatype='real' name='t_ttlh t_ttlh' ordinal='18' />
+                  <column datatype='integer' name='retrofit retrofit' ordinal='19' />
+                  <column datatype='integer' name='retrofit_year retrofit_year' ordinal='20' />
+                  <column datatype='integer' name='t_conf_atr t_conf_atr' ordinal='21' />
+                  <column datatype='integer' name='t_conf_loc t_conf_loc' ordinal='22' />
+                  <column datatype='string' name='t_img_date t_img_date' ordinal='23' />
+                  <column datatype='string' name='t_img_srce t_img_srce' ordinal='24' />
+                  <column datatype='real' name='xlong xlong' ordinal='25' />
+                  <column datatype='real' name='ylat ylat' ordinal='26' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Iowa_County' inline='true' name='federated.14ynabl16lv4qc1cbgxmj1gb3ls3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Iowa_County' name='textscan.1g0hpfw1c12nvb16nlreo19xvpm6'>
+            <connection class='textscan' directory='C:/Spring 2023/Thesis2022Farzaneh' filename='Iowa_County.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1g0hpfw1c12nvb16nlreo19xvpm6' name='Iowa_County.csv' table='[Iowa_County#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='OBJECTID' ordinal='0' />
+            <column datatype='integer' name='COUNTY_NUMBER' ordinal='1' />
+            <column datatype='string' name='COUNTY_NAME' ordinal='2' />
+            <column datatype='integer' name='COUNTY_FIPS_CODE' ordinal='3' />
+            <column datatype='string' name='REST_UPDATED' ordinal='4' />
+            <column datatype='datetime' name='REST_UTC_OFFSET' ordinal='5' />
+            <column datatype='real' name='AREA_ACRE' ordinal='6' />
+            <column datatype='real' name='PERIMETER_METER' ordinal='7' />
+            <column datatype='string' name='GLOBALID' ordinal='8' />
+            <column datatype='real' name='Shape__Area' ordinal='9' />
+            <column datatype='real' name='Shape__Length' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1g0hpfw1c12nvb16nlreo19xvpm6' name='Iowa_County.csv' table='[Iowa_County#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='OBJECTID' ordinal='0' />
+            <column datatype='integer' name='COUNTY_NUMBER' ordinal='1' />
+            <column datatype='string' name='COUNTY_NAME' ordinal='2' />
+            <column datatype='integer' name='COUNTY_FIPS_CODE' ordinal='3' />
+            <column datatype='string' name='REST_UPDATED' ordinal='4' />
+            <column datatype='datetime' name='REST_UTC_OFFSET' ordinal='5' />
+            <column datatype='real' name='AREA_ACRE' ordinal='6' />
+            <column datatype='real' name='PERIMETER_METER' ordinal='7' />
+            <column datatype='string' name='GLOBALID' ordinal='8' />
+            <column datatype='real' name='Shape__Area' ordinal='9' />
+            <column datatype='real' name='Shape__Length' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Iowa_County.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OBJECTID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OBJECTID]</local-name>
+            <parent-name>[Iowa_County.csv]</parent-name>
+            <remote-alias>OBJECTID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNTY_NUMBER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COUNTY_NUMBER]</local-name>
+            <parent-name>[Iowa_County.csv]</parent-name>
+            <remote-alias>COUNTY_NUMBER</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNTY_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COUNTY_NAME]</local-name>
+            <parent-name>[Iowa_County.csv]</parent-name>
+            <remote-alias>COUNTY_NAME</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNTY_FIPS_CODE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COUNTY_FIPS_CODE]</local-name>
+            <parent-name>[Iowa_County.csv]</parent-name>
+            <remote-alias>COUNTY_FIPS_CODE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REST_UPDATED</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[REST_UPDATED]</local-name>
+            <parent-name>[Iowa_County.csv]</parent-name>
+            <remote-alias>REST_UPDATED</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REST_UTC_OFFSET</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[REST_UTC_OFFSET]</local-name>
+            <parent-name>[Iowa_County.csv]</parent-name>
+            <remote-alias>REST_UTC_OFFSET</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AREA_ACRE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AREA_ACRE]</local-name>
+            <parent-name>[Iowa_County.csv]</parent-name>
+            <remote-alias>AREA_ACRE</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERIMETER_METER</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERIMETER_METER]</local-name>
+            <parent-name>[Iowa_County.csv]</parent-name>
+            <remote-alias>PERIMETER_METER</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GLOBALID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GLOBALID]</local-name>
+            <parent-name>[Iowa_County.csv]</parent-name>
+            <remote-alias>GLOBALID</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shape__Area</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shape__Area]</local-name>
+            <parent-name>[Iowa_County.csv]</parent-name>
+            <remote-alias>Shape__Area</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shape__Length</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shape__Length]</local-name>
+            <parent-name>[Iowa_County.csv]</parent-name>
+            <remote-alias>Shape__Length</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Area Acre' datatype='real' name='[AREA_ACRE]' role='measure' type='quantitative' />
+      <column caption='County Fips Code' datatype='integer' name='[COUNTY_FIPS_CODE]' role='dimension' type='ordinal' />
+      <column caption='County Name' datatype='string' name='[COUNTY_NAME]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County Number' datatype='integer' name='[COUNTY_NUMBER]' role='dimension' type='ordinal' />
+      <column caption='Globalid' datatype='string' name='[GLOBALID]' role='dimension' type='nominal' />
+      <column caption='Objectid' datatype='integer' name='[OBJECTID]' role='measure' type='quantitative' />
+      <column caption='Perimeter Meter' datatype='real' name='[PERIMETER_METER]' role='measure' type='quantitative' />
+      <column caption='Rest Updated' datatype='string' name='[REST_UPDATED]' role='dimension' type='nominal' />
+      <column aggregation='Hour' caption='Rest Utc Offset' datatype='datetime' name='[REST_UTC_OFFSET]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Iowa_County.csv' datatype='table' name='[__tableau_internal_object_id__].[Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B]' role='measure' type='quantitative' />
+      <column-instance column='[COUNTY_NAME]' derivation='None' name='[none:COUNTY_NAME:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:COUNTY_NAME:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Bremer&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Des Moines&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Jackson&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Montgomery&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Van Buren&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Adair&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Clay&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hancock&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Madison&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sac&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%many-values%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Audubon&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Dallas&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Howard&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Mills&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Story&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Calhoun&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Fayette&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Jones&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Page&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Wayne&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Buchanan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Dickinson&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Jasper&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Muscatine&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Wapello&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Benton&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Davis&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Humboldt&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mitchell&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tama&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Chickasaw&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Guthrie&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lucas&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Poweshiek&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Wright&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Adams&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Clayton&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Hardin&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Mahaska&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Scott&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Cerro Gordo&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Greene&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Linn&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Polk&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Woodbury&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Black Hawk&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Decatur&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ida&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Monona&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Taylor&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Carroll&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Floyd&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Keokuk&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Palo Alto&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Webster&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cass&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Franklin&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kossuth&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Plymouth&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Winnebago&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cherokee&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Grundy&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Louisa&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Pottawattamie&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Worth&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Clarke&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hamilton&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Lyon&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Ringgold&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Buena Vista&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Dubuque&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Jefferson&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Obrien&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Warren&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Boone&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Delaware&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Iowa&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Monroe&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Union&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Allamakee&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Clinton&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Harrison&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Marion&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Shelby&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Cedar&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Fremont&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lee&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Pocahontas&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Winneshiek&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Butler&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Emmet&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Johnson&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Osceola&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Washington&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Appanoose&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Crawford&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Henry&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Marshall&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sioux&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Iowa_County.csv' id='Iowa_County.csv_606E33A84EFF41E5B37CF271DFA9078B'>
+            <properties context=''>
+              <relation connection='textscan.1g0hpfw1c12nvb16nlreo19xvpm6' name='Iowa_County.csv' table='[Iowa_County#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='OBJECTID' ordinal='0' />
+                  <column datatype='integer' name='COUNTY_NUMBER' ordinal='1' />
+                  <column datatype='string' name='COUNTY_NAME' ordinal='2' />
+                  <column datatype='integer' name='COUNTY_FIPS_CODE' ordinal='3' />
+                  <column datatype='string' name='REST_UPDATED' ordinal='4' />
+                  <column datatype='datetime' name='REST_UTC_OFFSET' ordinal='5' />
+                  <column datatype='real' name='AREA_ACRE' ordinal='6' />
+                  <column datatype='real' name='PERIMETER_METER' ordinal='7' />
+                  <column datatype='string' name='GLOBALID' ordinal='8' />
+                  <column datatype='real' name='Shape__Area' ordinal='9' />
+                  <column datatype='real' name='Shape__Length' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='County.shp (Multiple Connections)' inline='true' name='federated.1cfy5bf0ee7pgk1b32t5k13texu2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='IA_WindTurbine' name='ogrdirect.0b6nih10swttf61amd8wv1o9lo3o'>
+            <connection class='ogrdirect' directory='C:/Spring 2023/Thesis2022Farzaneh/Windmill Shapefile (1)/Windmill Shapefile' filename='IA_WindTurbine.shp' password='' server='' tablename='' />
+          </named-connection>
+          <named-connection caption='County' name='ogrdirect.1mnxjsr0r5m8ad1geyu2p0lbt2ed'>
+            <connection class='ogrdirect' directory='C:/Spring 2023/CRP 558/LA-558/Assignment6/IowaCounty' filename='County.shp' password='' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='ogrdirect.1mnxjsr0r5m8ad1geyu2p0lbt2ed' name='County.shp' table='[County.shp]' type='table'>
+          <columns>
+            <column datatype='integer' name='OBJECTID' ordinal='0' />
+            <column datatype='integer' name='COUNTY_NUM' ordinal='1' />
+            <column datatype='string' name='COUNTY_NAM' ordinal='2' />
+            <column datatype='integer' name='COUNTY_FIP' ordinal='3' />
+            <column datatype='date' name='REST_UPDAT' ordinal='4' />
+            <column datatype='string' name='REST_UTC_O' ordinal='5' />
+            <column datatype='real' name='AREA_ACRE' ordinal='6' />
+            <column datatype='real' name='PERIMETER_' ordinal='7' />
+            <column datatype='string' name='GLOBALID' ordinal='8' />
+            <column datatype='real' name='Shape__Are' ordinal='9' />
+            <column datatype='real' name='Shape__Len' ordinal='10' />
+            <column datatype='spatial' name='Geometry' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='ogrdirect.1mnxjsr0r5m8ad1geyu2p0lbt2ed' name='County.shp' table='[County.shp]' type='table'>
+          <columns>
+            <column datatype='integer' name='OBJECTID' ordinal='0' />
+            <column datatype='integer' name='COUNTY_NUM' ordinal='1' />
+            <column datatype='string' name='COUNTY_NAM' ordinal='2' />
+            <column datatype='integer' name='COUNTY_FIP' ordinal='3' />
+            <column datatype='date' name='REST_UPDAT' ordinal='4' />
+            <column datatype='string' name='REST_UTC_O' ordinal='5' />
+            <column datatype='real' name='AREA_ACRE' ordinal='6' />
+            <column datatype='real' name='PERIMETER_' ordinal='7' />
+            <column datatype='string' name='GLOBALID' ordinal='8' />
+            <column datatype='real' name='Shape__Are' ordinal='9' />
+            <column datatype='real' name='Shape__Len' ordinal='10' />
+            <column datatype='spatial' name='Geometry' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>OBJECTID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OBJECTID]</local-name>
+            <parent-name>[County.shp]</parent-name>
+            <remote-alias>OBJECTID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNTY_NUM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COUNTY_NUM]</local-name>
+            <parent-name>[County.shp]</parent-name>
+            <remote-alias>COUNTY_NUM</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNTY_NAM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COUNTY_NAM]</local-name>
+            <parent-name>[County.shp]</parent-name>
+            <remote-alias>COUNTY_NAM</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNTY_FIP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COUNTY_FIP]</local-name>
+            <parent-name>[County.shp]</parent-name>
+            <remote-alias>COUNTY_FIP</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REST_UPDAT</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[REST_UPDAT]</local-name>
+            <parent-name>[County.shp]</parent-name>
+            <remote-alias>REST_UPDAT</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REST_UTC_O</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[REST_UTC_O]</local-name>
+            <parent-name>[County.shp]</parent-name>
+            <remote-alias>REST_UTC_O</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AREA_ACRE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AREA_ACRE]</local-name>
+            <parent-name>[County.shp]</parent-name>
+            <remote-alias>AREA_ACRE</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERIMETER_</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERIMETER_]</local-name>
+            <parent-name>[County.shp]</parent-name>
+            <remote-alias>PERIMETER_</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GLOBALID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GLOBALID]</local-name>
+            <parent-name>[County.shp]</parent-name>
+            <remote-alias>GLOBALID</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shape__Are</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shape__Are]</local-name>
+            <parent-name>[County.shp]</parent-name>
+            <remote-alias>Shape__Are</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shape__Len</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shape__Len]</local-name>
+            <parent-name>[County.shp]</parent-name>
+            <remote-alias>Shape__Len</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[County.shp]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Area Acre' datatype='real' name='[AREA_ACRE]' role='measure' type='quantitative' />
+      <column caption='County Fip' datatype='integer' name='[COUNTY_FIP]' role='measure' type='quantitative' />
+      <column caption='County Nam' datatype='string' name='[COUNTY_NAM]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County Num' datatype='integer' name='[COUNTY_NUM]' role='dimension' type='ordinal' />
+      <column caption='Globalid' datatype='string' name='[GLOBALID]' role='dimension' type='nominal' />
+      <column caption='Objectid' datatype='integer' name='[OBJECTID]' role='measure' type='quantitative' />
+      <column caption='Perimeter' datatype='real' name='[PERIMETER_]' role='measure' type='quantitative' />
+      <column caption='Rest Updat' datatype='date' name='[REST_UPDAT]' role='dimension' type='ordinal' />
+      <column caption='Rest Utc O' datatype='string' name='[REST_UTC_O]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='County.shp' datatype='table' name='[__tableau_internal_object_id__].[County.shp_A6090B1CD94546B9B327E0C7CF80B3D5]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='t_state, t_county' />
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='99' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='County.shp' id='County.shp_A6090B1CD94546B9B327E0C7CF80B3D5'>
+            <properties context=''>
+              <relation connection='ogrdirect.1mnxjsr0r5m8ad1geyu2p0lbt2ed' name='County.shp' table='[County.shp]' type='table'>
+                <columns>
+                  <column datatype='integer' name='OBJECTID' ordinal='0' />
+                  <column datatype='integer' name='COUNTY_NUM' ordinal='1' />
+                  <column datatype='string' name='COUNTY_NAM' ordinal='2' />
+                  <column datatype='integer' name='COUNTY_FIP' ordinal='3' />
+                  <column datatype='date' name='REST_UPDAT' ordinal='4' />
+                  <column datatype='string' name='REST_UTC_O' ordinal='5' />
+                  <column datatype='real' name='AREA_ACRE' ordinal='6' />
+                  <column datatype='real' name='PERIMETER_' ordinal='7' />
+                  <column datatype='string' name='GLOBALID' ordinal='8' />
+                  <column datatype='real' name='Shape__Are' ordinal='9' />
+                  <column datatype='real' name='Shape__Len' ordinal='10' />
+                  <column datatype='spatial' name='Geometry' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run bold='true'>Iowa State Crashes</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Iowa_County' name='federated.14ynabl16lv4qc1cbgxmj1gb3ls3' />
+            <datasource caption='Crash_Months_Source_Daytime_201 (Crash_Months_Source_Daytime_2012_2019)' name='federated.0dily3d0sjzo2o1h45ovi01qpj3z' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0dily3d0sjzo2o1h45ovi01qpj3z'>
+            <column caption='County' datatype='integer' name='[COUNTY]' role='measure' type='quantitative' />
+            <column caption='Cseverity' datatype='integer' name='[CSEVERITY]' role='measure' type='quantitative' />
+            <column caption='Fatalities' datatype='integer' name='[FATALITIES]' role='measure' type='quantitative' />
+            <column caption='Majorcause' datatype='integer' name='[MAJORCAUSE]' role='measure' type='quantitative' />
+            <column-instance column='[COUNTY]' derivation='Sum' name='[sum:COUNTY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CSEVERITY]' derivation='Sum' name='[sum:CSEVERITY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FATALITIES]' derivation='Sum' name='[sum:FATALITIES:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAJORCAUSE]' derivation='Sum' name='[sum:MAJORCAUSE:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#ffbe7d' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0dily3d0sjzo2o1h45ovi01qpj3z].[sum:CSEVERITY:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0dily3d0sjzo2o1h45ovi01qpj3z].[sum:MAJORCAUSE:qk]' />
+              <lod column='[federated.0dily3d0sjzo2o1h45ovi01qpj3z].[sum:FATALITIES:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0dily3d0sjzo2o1h45ovi01qpj3z].[sum:CSEVERITY:qk]</rows>
+        <cols>[federated.0dily3d0sjzo2o1h45ovi01qpj3z].[sum:COUNTY:qk]</cols>
+      </table>
+      <simple-id uuid='{1265F3CE-8CDA-40A9-9810-2B5256DC83E1}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Iowa State Wind Turbines&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='5' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='5250' id='7' type-v2='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='92750' id='6' type-v2='layout-basic' w='98400' x='800' y='6250' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run>&lt;Iowa State Wind Turbines&gt;</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='30' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone h='5250' id='7' type-v2='title' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0188D053-40C3-4FCF-AD18-F25B9A4CE994}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='3' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C9FF8F6C-6278-4BBA-81DA-946893083C14}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='72'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0dily3d0sjzo2o1h45ovi01qpj3z].[sum:MAJORCAUSE:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0dily3d0sjzo2o1h45ovi01qpj3z].[sum:MAJORCAUSE:qk]</field>
+            <field>[federated.14ynabl16lv4qc1cbgxmj1gb3ls3].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A75FD392-2AD3-49F0-BF7B-E8AC13A2254D}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 2'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{17E01B43-24D1-4904-B77A-910157BD7AEC}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{A9B02FCF-310C-4E52-B79E-D6E9DD1735BF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Dashboard 1' width='384'>
+      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
+      qz79xA26ZaTbkLTV+f2B4D7cPn6aO5iV7ZxzLuDPdc8+PsFNmD4vuOwPX6dDKXGuyzXXu3c+
+      /Kc7eSr/yB3e84279oYhwXliP3zdDbr1Xnf4+EnnnHPZR/a5oTf1cWs3pwaPy+0TZzj/d4cz
+      4HeJmza54pw8fsTFLJznBgwY4F5Y+JbLyj55zmMF/FqV6BLQ4Z0JGjN5um65Z4qmTxmv5g3r
+      lKwugWy9t2KDJt4/RmVD8zdVvlINjf/TGC1dulSSVLVxB1U/ulU7D+efWn8d9y+19nZWZOcI
+      rYtNyF9NzkElpXt0afNakqTKNeupSVjt4GZCQsvq6q5XKnVX8Tdx23XqrsUxr6lZ7XKaPf0h
+      9ewdpZff+kD+klztCL1IHdo2V8F5hUe/u/pqpaamnXPRz1d+qMioIWrXtF7+kiGhuu3OO7Tm
+      k5XFXgoqW72pGoXu1bYDOZKkuLg4XX755ZLyzw58Pp8kKSvtKwXqtg1e/z8Tb5duusrbTp7T
+      szVu3Eh5uXnB5xcvXqL7H3xE9apXKtjd0Au7LVQyuXr1zY/11xf+Km+75goJKdiP1u0vU7VK
+      5SVJnpDS+uPYe5W4ZpXOduGlfvNL1O/6q1WmVP6/sSp1G+mikIL9XLZsmW6/+15VqZD/ib18
+      5doaNfT3WrnyH/mPK1RQxp5UpaTt0ekNq0P79ipOmQqVNSB6tF6ZP0dxK97QC4uWne9BAH5x
+      JfrfXrXxpXpu+mTNnzNNHzXtqFEjoksUgVMHd+tk9aaqVaHwZsJbt1XmrpdOPyqlyM4dFbtu
+      oxr3vEKxsbHqHDVWrcqm68H5qzSk95VKTohVC29nlT79PuHPPa5X5j+v2I3fqFSp/EsphzLS
+      5e057IxjqV6ngUbdea9G3TFOX22M1dN//osyjpzQhNv+cI69cPr47UV69+PPpJD8beUeP6JA
+      zTbn3P+du3apQq0awTfufAF5MtN0VFLlIkt4FBHRQQnxSWp5XYR8m1M16L5GkqSWl0Qo+YXH
+      JA1XYsJGXfa96//nJ0/b9uQpovXZL+H9NErpocceU7US3FQNrVhXtUOP6NBJqc553oPdlbpP
+      edn75fMVXNvPyXPalfqtJOniK7rp95u+0V0jb5a/dCV1ujJS0SNGqkXD2kXWlZudpaVL3tTb
+      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
+      AACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAA
+      MIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACj
+      CAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoA
+      AIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAA
+      GEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBR
+      BAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUA
+      AMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAA
+      jCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAo
+      AgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIA
+      AGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAA
+      RhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAU
+      AQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEA
+      ADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAA
+      owgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCK
+      AACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgA
+      ABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACA
+      UQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhF
+      AADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQA
+      AIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADA
+      KAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwi
+      AABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIA
+      AEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABg
+      FAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYR
+      AAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEA
+      AKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGDU/wNv0T8Ow7z+YQAAAABJRU5ErkJg
+      gg==
+    </thumbnail>
+    <thumbnail height='384' name='Dashboard 2' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+      qP8f0EqrP7GXq6YAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
