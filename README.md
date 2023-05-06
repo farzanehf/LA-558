@@ -50,7 +50,7 @@ https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/Assignmen
 
 
 # Final Project
-This is my [Proposal (Assignment_5)](https://github.com/farzanehf/LA-558/tree/main/Exercises_/Final_Project.html)
+This is my [Proposal (Assignment_5)](https://github.com/farzanehf/LA-558/tree/main/Exercises_/FinalProject.html)
 
 You can see my final project here:
 
