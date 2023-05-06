@@ -31,9 +31,9 @@ https://public.tableau.com/app/profile/farzaneh.faramarzi.khanghah/viz/ex10b/Das
 
 This is my [Assignment_2](Exercises_/assignment2.md)
 
-This is my [Assignment_3](Exercises_/index.md)
+This is my [Assignment_3](Exercises_/assign3.md)
 
-This is my [Assignment_4](Exercises_/index4.md)
+This is my [Assignment_4](Exercises_/assign4.md)
 
 This is my [Assignment_6](Exercises_/Assignment6.html)
 
